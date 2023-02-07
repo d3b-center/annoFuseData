@@ -13,9 +13,14 @@ BARK1	Kinase	Kincat_Hsap.08.02.txt
 BARK2	Kinase	Kincat_Hsap.08.02.txt
 GPRK4	Kinase	Kincat_Hsap.08.02.txt
 GPRK5	Kinase	Kincat_Hsap.08.02.txt
+GRK5	Kinase	Kincat_Hsap.08.02.txt
 GPRK6	Kinase	Kincat_Hsap.08.02.txt
+GRK6	Kinase	Kincat_Hsap.08.02.txt
 RHOK	Kinase	Kincat_Hsap.08.02.txt
+GRK1	Kinase	Kincat_Hsap.08.02.txt
 GPRK7	Kinase	Kincat_Hsap.08.02.txt
+GRK7	Kinase	Kincat_Hsap.08.02.txt
+MKNK2	Kinase	Kincat_Hsap.08.02.txt
 MAST1	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 MAST3	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 MAST2	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
@@ -59,11 +64,14 @@ SgK494	Kinase	Kincat_Hsap.08.02.txt
 SGK1	Kinase, CosmicCensus	Kincat_Hsap.08.02.txt, Census_allTue Sep 17 18_59_30 2019.tsv, PfamKinase
 SGK2	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 SGK3	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
+SGK3	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 YANK2	Kinase	Kincat_Hsap.08.02.txt
 YANK1	Kinase	Kincat_Hsap.08.02.txt
 YANK3	Kinase	Kincat_Hsap.08.02.txt
 ADCK3	Kinase	Kincat_Hsap.08.02.txt
+COQ8A	Kinase	Kincat_Hsap.08.02.txt
 ADCK4	Kinase	Kincat_Hsap.08.02.txt
+COQ8B	Kinase	Kincat_Hsap.08.02.txt
 ADCK1	Kinase	Kincat_Hsap.08.02.txt
 ADCK5	Kinase	Kincat_Hsap.08.02.txt
 ADCK2	Kinase	Kincat_Hsap.08.02.txt
@@ -90,6 +98,7 @@ ATM	Kinase, TumorSuppressorGene, CosmicCensus, Oncogene	Kincat_Hsap.08.02.txt, T
 ATR	Kinase, TumorSuppressorGene, CosmicCensus, Oncogene	Kincat_Hsap.08.02.txt, TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, PfamKinase
 DNAPK	Kinase	Kincat_Hsap.08.02.txt
 FRAP	Kinase	Kincat_Hsap.08.02.txt
+MTOR	Kinase	Kincat_Hsap.08.02.txt
 SMG1	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 TRRAP	Kinase, CosmicCensus	Kincat_Hsap.08.02.txt, Census_allTue Sep 17 18_59_30 2019.tsv, PfamKinase
 RIOK1	Kinase	Kincat_Hsap.08.02.txt
@@ -172,6 +181,7 @@ Trad	Kinase	Kincat_Hsap.08.02.txt
 TSSK2	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 TSSK3	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 TSSK1	Kinase	Kincat_Hsap.08.02.txt
+TSSK1B	Kinase	Kincat_Hsap.08.02.txt
 SSTK	Kinase	Kincat_Hsap.08.02.txt
 TSSK4	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 CK1a	Kinase	Kincat_Hsap.08.02.txt
@@ -187,7 +197,9 @@ VRK1	Kinase, Oncogene	Kincat_Hsap.08.02.txt, allOnco_Feb2017.tsv, PfamKinase
 VRK2	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 VRK3	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 CCRK	Kinase	Kincat_Hsap.08.02.txt
+CDK20	Kinase	Kincat_Hsap.08.02.txt
 CDC2	Kinase	Kincat_Hsap.08.02.txt
+CDK1	Kinase	Kincat_Hsap.08.02.txt
 CDK2	Kinase, TumorSuppressorGene, Oncogene	Kincat_Hsap.08.02.txt, TumorSuppressorGene.txt, allOnco_Feb2017.tsv, PfamKinase
 CDK3	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 CDK10	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
@@ -197,6 +209,7 @@ CDK5	Kinase, Oncogene	Kincat_Hsap.08.02.txt, allOnco_Feb2017.tsv, PfamKinase
 CDK7	Kinase, Oncogene	Kincat_Hsap.08.02.txt, allOnco_Feb2017.tsv, PfamKinase
 CDK8	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 CDK11	Kinase	Kincat_Hsap.08.02.txt
+CDK19	Kinase	Kincat_Hsap.08.02.txt
 CDK9	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 CHED	Kinase	Kincat_Hsap.08.02.txt
 CRK7	Kinase	Kincat_Hsap.08.02.txt
@@ -246,6 +259,7 @@ p38g	Kinase	Kincat_Hsap.08.02.txt
 MAK	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 MOK	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 ICK	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
+CILK1	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 SRPK1	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 SRPK2	Kinase, Oncogene	Kincat_Hsap.08.02.txt, allOnco_Feb2017.tsv, PfamKinase
 MSSK1	Kinase	Kincat_Hsap.08.02.txt
@@ -344,6 +358,7 @@ MAP3K3	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 MAP3K2	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 MAP3K4	Kinase, TumorSuppressorGene	Kincat_Hsap.08.02.txt, TumorSuppressorGene.txt, PfamKinase
 OSR1	Kinase, TranscriptionFactor	Kincat_Hsap.08.02.txt, addTF_JL.tsv
+OXSR1	Kinase, TranscriptionFactor	Kincat_Hsap.08.02.txt, addTF_JL.tsv
 STLK3	Kinase	Kincat_Hsap.08.02.txt
 GCK	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 KHS2	Kinase	Kincat_Hsap.08.02.txt
@@ -381,6 +396,7 @@ MAP2K4	Kinase, TumorSuppressorGene, CosmicCensus, Oncogene	Kincat_Hsap.08.02.txt
 MAP2K5	Kinase, Oncogene	Kincat_Hsap.08.02.txt, allOnco_Feb2017.tsv, PfamKinase
 MAP2K7	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 COT	Kinase	Kincat_Hsap.08.02.txt
+MAP3K8	Kinase	Kincat_Hsap.08.02.txt
 NIK	Kinase	Kincat_Hsap.08.02.txt
 ABL1	Kinase, CosmicCensus, Oncogene	Kincat_Hsap.08.02.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, PfamKinase
 ABL2	Kinase, CosmicCensus, Oncogene	Kincat_Hsap.08.02.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, PfamKinase
@@ -434,8 +450,10 @@ LMR2	Kinase	Kincat_Hsap.08.02.txt
 LMR3	Kinase	Kincat_Hsap.08.02.txt
 MET	Kinase, CosmicCensus, Oncogene	Kincat_Hsap.08.02.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, PfamKinase
 RON	Kinase	Kincat_Hsap.08.02.txt
+MST1R	Kinase	Kincat_Hsap.08.02.txt
 MUSK	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 FMS	Kinase	Kincat_Hsap.08.02.txt
+CSF1R	Kinase	Kincat_Hsap.08.02.txt
 FLT3	Kinase, TumorSuppressorGene, CosmicCensus, Oncogene	Kincat_Hsap.08.02.txt, TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, PfamKinase
 KIT	Kinase, CosmicCensus, Oncogene	Kincat_Hsap.08.02.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, PfamKinase
 PDGFRa	Kinase	Kincat_Hsap.08.02.txt
@@ -487,10 +505,14 @@ ILK	Kinase, TumorSuppressorGene	Kincat_Hsap.08.02.txt, TumorSuppressorGene.txt, 
 DLK	Kinase	Kincat_Hsap.08.02.txt
 LZK	Kinase	Kincat_Hsap.08.02.txt
 MLK1	Kinase	Kincat_Hsap.08.02.txt
+MAP3K9	Kinase	Kincat_Hsap.08.02.txt
 MLK2	Kinase	Kincat_Hsap.08.02.txt
+MAP3K10	Kinase	Kincat_Hsap.08.02.txt
 MLK3	Kinase	Kincat_Hsap.08.02.txt
+MAP3K11	Kinase	Kincat_Hsap.08.02.txt
 MLK4	Kinase	Kincat_Hsap.08.02.txt
 TAK1	Kinase	Kincat_Hsap.08.02.txt
+MAP3K7	Kinase	Kincat_Hsap.08.02.txt
 ZAK	Kinase	Kincat_Hsap.08.02.txt
 KSR1	Kinase, Oncogene	Kincat_Hsap.08.02.txt, allOnco_Feb2017.tsv, PfamKinase
 KSR2	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
@@ -501,6 +523,7 @@ RIPK1	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 RIPK2	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 RIPK3	Kinase	Kincat_Hsap.08.02.txt, PfamKinase
 ANKRD3	Kinase	Kincat_Hsap.08.02.txt
+RIPK4	Kinase	Kincat_Hsap.08.02.txt
 SgK288	Kinase	Kincat_Hsap.08.02.txt
 ALK2	Kinase	Kincat_Hsap.08.02.txt
 ALK4	Kinase	Kincat_Hsap.08.02.txt
@@ -645,6 +668,7 @@ RHOB	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 RND3	TumorSuppressorGene	TumorSuppressorGene.txt
 PHOX2A	TumorSuppressorGene, TranscriptionFactor	TumorSuppressorGene.txt, addTF_JL.tsv
 ARNTL	TumorSuppressorGene, TranscriptionFactor	TumorSuppressorGene.txt, addTF_JL.tsv
+BMAL1	TumorSuppressorGene, TranscriptionFactor	TumorSuppressorGene.txt, addTF_JL.tsv
 ASCL1	TumorSuppressorGene, Oncogene, TranscriptionFactor	TumorSuppressorGene.txt, allOnco_Feb2017.tsv, addTF_JL.tsv
 ASS1	TumorSuppressorGene	TumorSuppressorGene.txt
 ZFHX3	TumorSuppressorGene, CosmicCensus, Oncogene, TranscriptionFactor	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, addTF_JL.tsv
@@ -709,6 +733,7 @@ CSNK1A1	TumorSuppressorGene, Oncogene, Kinase	TumorSuppressorGene.txt, allOnco_F
 CST5	TumorSuppressorGene	TumorSuppressorGene.txt
 CST6	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 CTGF	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
+CCN2	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 CTNNA2	TumorSuppressorGene, CosmicCensus	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv
 CTNND1	TumorSuppressorGene, CosmicCensus, Oncogene	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 CUX1	TumorSuppressorGene, CosmicCensus, Oncogene, TranscriptionFactor	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, addTF_JL.tsv
@@ -725,6 +750,7 @@ DDX3X	TumorSuppressorGene, CosmicCensus	TumorSuppressorGene.txt, Census_allTue S
 DEFB1	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 DFFA	TumorSuppressorGene	TumorSuppressorGene.txt
 DFNA5	TumorSuppressorGene	TumorSuppressorGene.txt
+GSDME	TumorSuppressorGene	TumorSuppressorGene.txt
 DLG1	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 DMBT1	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 DMD	TumorSuppressorGene	TumorSuppressorGene.txt
@@ -735,6 +761,7 @@ DOK1	TumorSuppressorGene	TumorSuppressorGene.txt
 DPH1	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 DPP4	TumorSuppressorGene	TumorSuppressorGene.txt
 DSC3	TumorSuppressorGene	TumorSuppressorGene.txt
+DSC2	TumorSuppressorGene	TumorSuppressorGene.txt
 DSP	TumorSuppressorGene	TumorSuppressorGene.txt
 DUSP1	TumorSuppressorGene	TumorSuppressorGene.txt
 DUSP5	TumorSuppressorGene	TumorSuppressorGene.txt
@@ -763,6 +790,7 @@ EPHB6	TumorSuppressorGene, Oncogene, Kinase	TumorSuppressorGene.txt, allOnco_Feb
 ERBB4	TumorSuppressorGene, CosmicCensus, Oncogene, Kinase	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, PfamKinase
 EYA4	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 ERF	TumorSuppressorGene, TranscriptionFactor	TumorSuppressorGene.txt, addTF_JL.tsv
+ETF1	TumorSuppressorGene, TranscriptionFactor	TumorSuppressorGene.txt, addTF_JL.tsv
 ESR1	TumorSuppressorGene, CosmicCensus, Oncogene, TranscriptionFactor	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, addTF_JL.tsv
 ESR2	TumorSuppressorGene, Oncogene, TranscriptionFactor	TumorSuppressorGene.txt, allOnco_Feb2017.tsv, addTF_JL.tsv
 ESRRB	TumorSuppressorGene, TranscriptionFactor	TumorSuppressorGene.txt, addTF_JL.tsv
@@ -806,8 +834,10 @@ GSN	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 GSTP1	TumorSuppressorGene	TumorSuppressorGene.txt
 GSTT1	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 BRF1	TumorSuppressorGene	TumorSuppressorGene.txt
+ZFP36L1	TumorSuppressorGene	TumorSuppressorGene.txt
 GUCY2C	TumorSuppressorGene, Kinase	TumorSuppressorGene.txt, PfamKinase
 H2AFX	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
+H2AX	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 HDAC1	TumorSuppressorGene	TumorSuppressorGene.txt
 HIC1	TumorSuppressorGene, Oncogene, TranscriptionFactor	TumorSuppressorGene.txt, allOnco_Feb2017.tsv, addTF_JL.tsv
 HIF1A	TumorSuppressorGene, CosmicCensus, TranscriptionFactor	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, addTF_JL.tsv
@@ -838,6 +868,7 @@ CXCR2	TumorSuppressorGene	TumorSuppressorGene.txt
 IL17A	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 ING1	TumorSuppressorGene	TumorSuppressorGene.txt
 ING2	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
+INGX	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 CXCL10	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 PDX1	TumorSuppressorGene, Oncogene, TranscriptionFactor	TumorSuppressorGene.txt, allOnco_Feb2017.tsv, addTF_JL.tsv
 IRF1	TumorSuppressorGene, Oncogene, TranscriptionFactor	TumorSuppressorGene.txt, allOnco_Feb2017.tsv, addTF_JL.tsv
@@ -859,6 +890,7 @@ LLGL1	TumorSuppressorGene	TumorSuppressorGene.txt
 VWA5A	TumorSuppressorGene	TumorSuppressorGene.txt
 LOX	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 LRMP	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
+IRAG2	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 LSAMP	TumorSuppressorGene	TumorSuppressorGene.txt
 LTF	TumorSuppressorGene, TranscriptionFactor	TumorSuppressorGene.txt, addTF_JL.tsv
 MARCKS	TumorSuppressorGene	TumorSuppressorGene.txt
@@ -902,6 +934,7 @@ NOTCH1	TumorSuppressorGene, CosmicCensus, Oncogene	TumorSuppressorGene.txt, Cens
 NOTCH2	TumorSuppressorGene, CosmicCensus, Oncogene	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 NOTCH3	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 NOV	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
+CCN3	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 NPAS2	TumorSuppressorGene, TranscriptionFactor	TumorSuppressorGene.txt, addTF_JL.tsv
 NPM1	TumorSuppressorGene, CosmicCensus, Oncogene	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 NRCAM	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
@@ -913,6 +946,7 @@ PEBP1	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 PAEP	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 PAFAH1B1	TumorSuppressorGene	TumorSuppressorGene.txt
 PARK2	TumorSuppressorGene	TumorSuppressorGene.txt
+PRKN	TumorSuppressorGene	TumorSuppressorGene.txt
 PAWR	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 PAX4	TumorSuppressorGene, TranscriptionFactor	TumorSuppressorGene.txt, addTF_JL.tsv
 PAX5	TumorSuppressorGene, CosmicCensus, Oncogene, TranscriptionFactor	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, addTF_JL.tsv
@@ -926,6 +960,7 @@ PF4	TumorSuppressorGene	TumorSuppressorGene.txt
 PFN1	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 PGR	TumorSuppressorGene, TranscriptionFactor	TumorSuppressorGene.txt, addTF_JL.tsv
 PHB	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
+PHB1	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 SERPINB5	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 SERPINI2	TumorSuppressorGene	TumorSuppressorGene.txt
 PIN1	TumorSuppressorGene, TranscriptionFactor	TumorSuppressorGene.txt, addTF_JL.tsv
@@ -935,9 +970,11 @@ PLAGL1	TumorSuppressorGene, Oncogene, TranscriptionFactor	TumorSuppressorGene.tx
 PLCB3	TumorSuppressorGene	TumorSuppressorGene.txt
 PLCD1	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 PLD1	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
+PRKCSH	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 PML	TumorSuppressorGene, CosmicCensus, Oncogene	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 PNN	TumorSuppressorGene	TumorSuppressorGene.txt
 SEPT4	TumorSuppressorGene	TumorSuppressorGene.txt
+SEPTIN4	TumorSuppressorGene	TumorSuppressorGene.txt
 PPARA	TumorSuppressorGene, TranscriptionFactor	TumorSuppressorGene.txt, addTF_JL.tsv
 PPARG	TumorSuppressorGene, CosmicCensus, Oncogene, TranscriptionFactor	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, addTF_JL.tsv
 PPM1A	TumorSuppressorGene	TumorSuppressorGene.txt
@@ -947,6 +984,7 @@ PPP2CB	TumorSuppressorGene	TumorSuppressorGene.txt
 PPP2R1B	TumorSuppressorGene	TumorSuppressorGene.txt
 PPP2R2C	TumorSuppressorGene	TumorSuppressorGene.txt
 PPP2R4	TumorSuppressorGene	TumorSuppressorGene.txt
+PTPA	TumorSuppressorGene	TumorSuppressorGene.txt
 PPP2R5C	TumorSuppressorGene	TumorSuppressorGene.txt
 PPP3CC	TumorSuppressorGene	TumorSuppressorGene.txt
 PRKAA1	TumorSuppressorGene, Kinase	TumorSuppressorGene.txt, PfamKinase
@@ -981,6 +1019,7 @@ RAP1A	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 RAP1GAP	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 RARB	TumorSuppressorGene, Oncogene, TranscriptionFactor	TumorSuppressorGene.txt, allOnco_Feb2017.tsv, addTF_JL.tsv
 RARRES3	TumorSuppressorGene	TumorSuppressorGene.txt
+PLAAT4	TumorSuppressorGene	TumorSuppressorGene.txt
 RB1	TumorSuppressorGene, CosmicCensus, Oncogene	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 KDM5A	TumorSuppressorGene, CosmicCensus, Oncogene	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 RBBP7	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
@@ -1028,6 +1067,7 @@ SPARC	TumorSuppressorGene	TumorSuppressorGene.txt
 SPI1	TumorSuppressorGene, Oncogene, TranscriptionFactor	TumorSuppressorGene.txt, allOnco_Feb2017.tsv, addTF_JL.tsv
 SPTBN1	TumorSuppressorGene	TumorSuppressorGene.txt
 ST5	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
+DENND2B	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 ST13	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 STAT1	TumorSuppressorGene, TranscriptionFactor	TumorSuppressorGene.txt, addTF_JL.tsv
 STAT3	TumorSuppressorGene, CosmicCensus, Oncogene, TranscriptionFactor	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, addTF_JL.tsv
@@ -1038,8 +1078,11 @@ TAGLN	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 TAT	TumorSuppressorGene	TumorSuppressorGene.txt
 TBX5	TumorSuppressorGene, TranscriptionFactor	TumorSuppressorGene.txt, addTF_JL.tsv
 TCEB3	TumorSuppressorGene	TumorSuppressorGene.txt
+ELOA	TumorSuppressorGene	TumorSuppressorGene.txt
 TCF4	TumorSuppressorGene, TranscriptionFactor	TumorSuppressorGene.txt, addTF_JL.tsv
+TCF7L2	TumorSuppressorGene, TranscriptionFactor	TumorSuppressorGene.txt, addTF_JL.tsv
 TCF3	TumorSuppressorGene, CosmicCensus, Oncogene, TranscriptionFactor	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, addTF_JL.tsv
+TCF7L1	TumorSuppressorGene, CosmicCensus, Oncogene, TranscriptionFactor	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, addTF_JL.tsv
 TCF7L2	TumorSuppressorGene, CosmicCensus, Oncogene, TranscriptionFactor	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, addTF_JL.tsv
 TDGF1	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 TFAP2A	TumorSuppressorGene, Oncogene, TranscriptionFactor	TumorSuppressorGene.txt, allOnco_Feb2017.tsv, addTF_JL.tsv
@@ -1143,6 +1186,7 @@ TNFRSF10A	TumorSuppressorGene	TumorSuppressorGene.txt
 TRIM24	TumorSuppressorGene, CosmicCensus, Oncogene	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 INPP4B	TumorSuppressorGene	TumorSuppressorGene.txt
 WISP3	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
+CCN6	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 HDAC3	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 DLEU2	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 TSC22D1	TumorSuppressorGene, TranscriptionFactor	TumorSuppressorGene.txt, addTF_JL.tsv
@@ -1170,6 +1214,7 @@ COPS2	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 SLIT2	TumorSuppressorGene	TumorSuppressorGene.txt
 KL	TumorSuppressorGene	TumorSuppressorGene.txt
 SLC9A3R1	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
+NHERF1	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 ARHGAP29	TumorSuppressorGene	TumorSuppressorGene.txt
 ABCG2	TumorSuppressorGene	TumorSuppressorGene.txt
 AIM2	TumorSuppressorGene	TumorSuppressorGene.txt
@@ -1212,10 +1257,12 @@ UBE4B	TumorSuppressorGene	TumorSuppressorGene.txt
 DLEU1	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 IKZF1	TumorSuppressorGene, CosmicCensus, Oncogene, TranscriptionFactor	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, addTF_JL.tsv
 MRVI1	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
+IRAG1	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 CITED2	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 DLC1	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 NDRG1	TumorSuppressorGene, CosmicCensus, Oncogene	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 GNB2L1	TumorSuppressorGene	TumorSuppressorGene.txt
+RACK1	TumorSuppressorGene	TumorSuppressorGene.txt
 BASP1	TumorSuppressorGene	TumorSuppressorGene.txt
 YAP1	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 PGRMC2	TumorSuppressorGene	TumorSuppressorGene.txt
@@ -1252,6 +1299,7 @@ PRDM5	TumorSuppressorGene, TranscriptionFactor	TumorSuppressorGene.txt, addTF_JL
 PRDM4	TumorSuppressorGene, TranscriptionFactor	TumorSuppressorGene.txt, addTF_JL.tsv
 PTPRT	TumorSuppressorGene, CosmicCensus, Oncogene	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 PLA2G16	TumorSuppressorGene	TumorSuppressorGene.txt
+PLAAT3	TumorSuppressorGene	TumorSuppressorGene.txt
 LZTS1	TumorSuppressorGene	TumorSuppressorGene.txt
 MAP4K1	TumorSuppressorGene, Kinase	TumorSuppressorGene.txt, PfamKinase
 RASSF1	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
@@ -1302,6 +1350,7 @@ SEC14L2	TumorSuppressorGene	TumorSuppressorGene.txt
 GTPBP4	TumorSuppressorGene	TumorSuppressorGene.txt
 CCNDBP1	TumorSuppressorGene	TumorSuppressorGene.txt
 DDX58	TumorSuppressorGene	TumorSuppressorGene.txt
+RIGI	TumorSuppressorGene	TumorSuppressorGene.txt
 PHLDA3	TumorSuppressorGene	TumorSuppressorGene.txt
 SSBP2	TumorSuppressorGene	TumorSuppressorGene.txt
 TMEFF2	TumorSuppressorGene	TumorSuppressorGene.txt
@@ -1309,6 +1358,7 @@ CADM1	TumorSuppressorGene	TumorSuppressorGene.txt
 CIZ1	TumorSuppressorGene	TumorSuppressorGene.txt
 POU2F3	TumorSuppressorGene, TranscriptionFactor	TumorSuppressorGene.txt, addTF_JL.tsv
 BRMS1	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
+BRMS1L	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 RCHY1	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 PTPN23	TumorSuppressorGene	TumorSuppressorGene.txt
 LRIG1	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
@@ -1351,7 +1401,9 @@ BLNK	TumorSuppressorGene	TumorSuppressorGene.txt
 UBIAD1	TumorSuppressorGene	TumorSuppressorGene.txt
 OSGIN1	TumorSuppressorGene	TumorSuppressorGene.txt
 GLTSCR2	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
+NOP53	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 GLTSCR1	TumorSuppressorGene	TumorSuppressorGene.txt
+BICRA	TumorSuppressorGene	TumorSuppressorGene.txt
 EHD3	TumorSuppressorGene	TumorSuppressorGene.txt
 CRNN	TumorSuppressorGene	TumorSuppressorGene.txt
 G0S2	TumorSuppressorGene	TumorSuppressorGene.txt
@@ -1392,8 +1444,10 @@ TET2	TumorSuppressorGene, CosmicCensus, Oncogene, TranscriptionFactor	TumorSuppr
 TRIT1	TumorSuppressorGene	TumorSuppressorGene.txt
 ESRP1	TumorSuppressorGene	TumorSuppressorGene.txt
 WHSC1L1	TumorSuppressorGene	TumorSuppressorGene.txt
+NSD3	TumorSuppressorGene	TumorSuppressorGene.txt
 BANP	TumorSuppressorGene	TumorSuppressorGene.txt
 HRASLS2	TumorSuppressorGene	TumorSuppressorGene.txt
+PLAAT2	TumorSuppressorGene	TumorSuppressorGene.txt
 PINX1	TumorSuppressorGene	TumorSuppressorGene.txt
 PIWIL2	TumorSuppressorGene	TumorSuppressorGene.txt
 SHQ1	TumorSuppressorGene	TumorSuppressorGene.txt
@@ -1401,6 +1455,7 @@ PBRM1	TumorSuppressorGene, CosmicCensus, Oncogene	TumorSuppressorGene.txt, Censu
 TRIM62	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 MOB1A	TumorSuppressorGene	TumorSuppressorGene.txt
 CASC1	TumorSuppressorGene	TumorSuppressorGene.txt
+DNAI7	TumorSuppressorGene	TumorSuppressorGene.txt
 VPS53	TumorSuppressorGene	TumorSuppressorGene.txt
 FBXW7	TumorSuppressorGene, CosmicCensus, Oncogene	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 MEG3	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
@@ -1411,6 +1466,7 @@ PRR5	TumorSuppressorGene	TumorSuppressorGene.txt
 SLC39A4	TumorSuppressorGene	TumorSuppressorGene.txt
 TMEM127	TumorSuppressorGene, CosmicCensus	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv
 WDR11	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
+PHIP	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 DNAJC11	TumorSuppressorGene	TumorSuppressorGene.txt
 CHFR	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 CNDP2	TumorSuppressorGene	TumorSuppressorGene.txt
@@ -1457,6 +1513,7 @@ GAS5	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 BCORL1	TumorSuppressorGene, CosmicCensus	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv
 LRRC4	TumorSuppressorGene	TumorSuppressorGene.txt
 RFWD2	TumorSuppressorGene	TumorSuppressorGene.txt
+COP1	TumorSuppressorGene	TumorSuppressorGene.txt
 CSMD1	TumorSuppressorGene	TumorSuppressorGene.txt
 NDST4	TumorSuppressorGene	TumorSuppressorGene.txt
 CSRNP1	TumorSuppressorGene, TranscriptionFactor	TumorSuppressorGene.txt, addTF_JL.tsv
@@ -1484,6 +1541,7 @@ DOK3	TumorSuppressorGene	TumorSuppressorGene.txt
 DENND2D	TumorSuppressorGene	TumorSuppressorGene.txt
 PHC3	TumorSuppressorGene	TumorSuppressorGene.txt
 FAM188A	TumorSuppressorGene	TumorSuppressorGene.txt
+MINDY3	TumorSuppressorGene	TumorSuppressorGene.txt
 NRSN2	TumorSuppressorGene	TumorSuppressorGene.txt
 MUS81	TumorSuppressorGene	TumorSuppressorGene.txt
 CXXC4	TumorSuppressorGene, TranscriptionFactor	TumorSuppressorGene.txt, addTF_JL.tsv
@@ -1500,6 +1558,7 @@ TCHP	TumorSuppressorGene	TumorSuppressorGene.txt
 ING5	TumorSuppressorGene	TumorSuppressorGene.txt
 PHF6	TumorSuppressorGene, CosmicCensus, Oncogene	TumorSuppressorGene.txt, Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 C2orf40	TumorSuppressorGene	TumorSuppressorGene.txt
+ECRG4	TumorSuppressorGene	TumorSuppressorGene.txt
 SLX4	TumorSuppressorGene	TumorSuppressorGene.txt
 HOPX	TumorSuppressorGene	TumorSuppressorGene.txt
 AFAP1L2	TumorSuppressorGene	TumorSuppressorGene.txt
@@ -1533,6 +1592,7 @@ HTRA3	TumorSuppressorGene	TumorSuppressorGene.txt
 TP53INP1	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 EGLN3	TumorSuppressorGene	TumorSuppressorGene.txt
 PRKCDBP	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
+CAVIN3	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 CYGB	TumorSuppressorGene	TumorSuppressorGene.txt
 SMYD4	TumorSuppressorGene	TumorSuppressorGene.txt
 FBXO32	TumorSuppressorGene	TumorSuppressorGene.txt
@@ -1566,6 +1626,7 @@ PPM1L	TumorSuppressorGene	TumorSuppressorGene.txt
 SHISA3	TumorSuppressorGene	TumorSuppressorGene.txt
 DAB2IP	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 CCDC67	TumorSuppressorGene	TumorSuppressorGene.txt
+DEUP1	TumorSuppressorGene	TumorSuppressorGene.txt
 LMNTD1	TumorSuppressorGene	TumorSuppressorGene.txt
 SLC5A8	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
 TMPRSS6	TumorSuppressorGene, Oncogene	TumorSuppressorGene.txt, allOnco_Feb2017.tsv
@@ -1580,6 +1641,7 @@ FLCN	TumorSuppressorGene, CosmicCensus, Oncogene	TumorSuppressorGene.txt, Census
 ZBTB7C	TumorSuppressorGene, TranscriptionFactor	TumorSuppressorGene.txt, addTF_JL.tsv
 SAMD9L	TumorSuppressorGene	TumorSuppressorGene.txt
 USP12	TumorSuppressorGene	TumorSuppressorGene.txt
+USP12P1	TumorSuppressorGene	TumorSuppressorGene.txt
 UNC5B	TumorSuppressorGene	TumorSuppressorGene.txt
 HEPACAM	TumorSuppressorGene	TumorSuppressorGene.txt
 FBXL13	TumorSuppressorGene	TumorSuppressorGene.txt
@@ -1605,6 +1667,7 @@ PWAR4	TumorSuppressorGene	TumorSuppressorGene.txt
 DND1	TumorSuppressorGene	TumorSuppressorGene.txt
 KIF7	TumorSuppressorGene	TumorSuppressorGene.txt
 APITD1	TumorSuppressorGene	TumorSuppressorGene.txt
+CENPS	TumorSuppressorGene	TumorSuppressorGene.txt
 RASL11A	TumorSuppressorGene	TumorSuppressorGene.txt
 ST20	TumorSuppressorGene	TumorSuppressorGene.txt
 HACD4	TumorSuppressorGene	TumorSuppressorGene.txt
@@ -1854,11 +1917,13 @@ BRIP1	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb
 BTG1	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 BUB1B	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 C15orf65	CosmicCensus	Census_allTue Sep 17 18_59_30 2019.tsv
+PIERCE2	CosmicCensus	Census_allTue Sep 17 18_59_30 2019.tsv
 CACNA1D	CosmicCensus	Census_allTue Sep 17 18_59_30 2019.tsv
 CALR	CosmicCensus	Census_allTue Sep 17 18_59_30 2019.tsv
 CANT1	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 CARD11	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 CARS	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
+CARS1	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 CASP3	CosmicCensus	Census_allTue Sep 17 18_59_30 2019.tsv
 CASP9	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 CBFB	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
@@ -1970,6 +2035,7 @@ FCRL4	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb
 FEN1	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 FEV	CosmicCensus, Oncogene, TranscriptionFactor	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, addTF_JL.tsv
 FGFR1OP	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
+CEP43	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 FIP1L1	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 FKBP9	CosmicCensus	Census_allTue Sep 17 18_59_30 2019.tsv
 FLI1	CosmicCensus, Oncogene, TranscriptionFactor	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, addTF_JL.tsv
@@ -1990,12 +2056,16 @@ GOPC	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2
 GPHN	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 GRM3	CosmicCensus	Census_allTue Sep 17 18_59_30 2019.tsv
 H3F3A	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
+H3-3A	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 H3F3B	CosmicCensus	Census_allTue Sep 17 18_59_30 2019.tsv
+H3-3B	CosmicCensus	Census_allTue Sep 17 18_59_30 2019.tsv
 HERPUD1	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 HEY1	CosmicCensus, Oncogene, TranscriptionFactor	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, addTF_JL.tsv
 HIP1	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 HIST1H3B	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
+H3C2	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 HIST1H4I	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
+H4C9	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 HLA-A	CosmicCensus	Census_allTue Sep 17 18_59_30 2019.tsv
 HLF	CosmicCensus, Oncogene, TranscriptionFactor	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, addTF_JL.tsv
 HMGA1	CosmicCensus, Oncogene, TranscriptionFactor	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, addTF_JL.tsv
@@ -2088,6 +2158,7 @@ MSH6	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2
 MSI2	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 MSN	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 MTCP1	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
+CMC4	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 MTOR	CosmicCensus, Oncogene, Kinase	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, PfamKinase
 MUC1	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 MUC16	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
@@ -2212,8 +2283,11 @@ SDC4	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2
 SDHAF2	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 SDHC	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 SEPT5	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
+SEPTIN5	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 SEPT6	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
+SEPTIN6	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 SEPT9	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
+SEPTIN9	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 SET	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 SETBP1	CosmicCensus, Oncogene, TranscriptionFactor	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv, addTF_JL.tsv
 SETD1B	CosmicCensus	Census_allTue Sep 17 18_59_30 2019.tsv
@@ -2283,6 +2357,7 @@ TRA	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb20
 TRAF7	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 TRB	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 TRD	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
+TRD-GTC9-1	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 TRIM27	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 TRIM33	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
 TRIP11	CosmicCensus, Oncogene	Census_allTue Sep 17 18_59_30 2019.tsv, allOnco_Feb2017.tsv
@@ -2325,6 +2400,7 @@ THRSP	Oncogene	allOnco_Feb2017.tsv
 TPK1	Oncogene	allOnco_Feb2017.tsv
 ARID5A	Oncogene, TranscriptionFactor	allOnco_Feb2017.tsv, addTF_JL.tsv
 WISP2	Oncogene	allOnco_Feb2017.tsv
+CCN5	Oncogene	allOnco_Feb2017.tsv
 LTBR	Oncogene	allOnco_Feb2017.tsv
 OSBPL3	Oncogene	allOnco_Feb2017.tsv
 CALCR	Oncogene	allOnco_Feb2017.tsv
@@ -2381,6 +2457,7 @@ ATF7IP	Oncogene	allOnco_Feb2017.tsv
 IER2	Oncogene	allOnco_Feb2017.tsv
 TMSB10	Oncogene	allOnco_Feb2017.tsv
 FAM57A	Oncogene	allOnco_Feb2017.tsv
+TLCD3A	Oncogene	allOnco_Feb2017.tsv
 MIR21	Oncogene	allOnco_Feb2017.tsv
 SERPINB1	Oncogene	allOnco_Feb2017.tsv
 PVT1	Oncogene	allOnco_Feb2017.tsv
@@ -2433,6 +2510,7 @@ HPSE	Oncogene	allOnco_Feb2017.tsv
 XDH	Oncogene	allOnco_Feb2017.tsv
 HSPG2	Oncogene	allOnco_Feb2017.tsv
 TRAP1	Oncogene	allOnco_Feb2017.tsv
+HSP90B2P	Oncogene	allOnco_Feb2017.tsv
 CDH20	Oncogene	allOnco_Feb2017.tsv
 NEIL1	Oncogene	allOnco_Feb2017.tsv
 FGF12	Oncogene	allOnco_Feb2017.tsv
@@ -2441,6 +2519,8 @@ PSEN2	Oncogene	allOnco_Feb2017.tsv
 ZNF608	Oncogene, TranscriptionFactor	allOnco_Feb2017.tsv, addTF_JL.tsv
 BFSP2	Oncogene	allOnco_Feb2017.tsv
 NET1	Oncogene	allOnco_Feb2017.tsv
+SLC6A2	Oncogene	allOnco_Feb2017.tsv
+SLC6A5	Oncogene	allOnco_Feb2017.tsv
 IFNGR2	Oncogene	allOnco_Feb2017.tsv
 ERC2	Oncogene	allOnco_Feb2017.tsv
 COL4A3	Oncogene	allOnco_Feb2017.tsv
@@ -2484,6 +2564,7 @@ PKIG	Oncogene	allOnco_Feb2017.tsv
 RSF1	Oncogene	allOnco_Feb2017.tsv
 TNFSF18	Oncogene	allOnco_Feb2017.tsv
 WDR82	Oncogene	allOnco_Feb2017.tsv
+WDR82P1	Oncogene	allOnco_Feb2017.tsv
 ADAM23	Oncogene	allOnco_Feb2017.tsv
 TNFRSF1A	Oncogene	allOnco_Feb2017.tsv
 ATF2	Oncogene, TranscriptionFactor	allOnco_Feb2017.tsv, addTF_JL.tsv
@@ -2524,6 +2605,7 @@ TRIAP1	Oncogene	allOnco_Feb2017.tsv
 DBN1	Oncogene	allOnco_Feb2017.tsv
 SORBS2	Oncogene	allOnco_Feb2017.tsv
 MKL1	Oncogene	allOnco_Feb2017.tsv
+MRTFA	Oncogene	allOnco_Feb2017.tsv
 TFAP4	Oncogene, TranscriptionFactor	allOnco_Feb2017.tsv, addTF_JL.tsv
 CD248	Oncogene	allOnco_Feb2017.tsv
 CDK11B	Oncogene, Kinase	allOnco_Feb2017.tsv, PfamKinase
@@ -2612,6 +2694,7 @@ PGF	Oncogene	allOnco_Feb2017.tsv
 AKR1C3	Oncogene	allOnco_Feb2017.tsv
 TDGF1P3	Oncogene	allOnco_Feb2017.tsv
 GABPB1	Oncogene	allOnco_Feb2017.tsv
+GABPAP	Oncogene	allOnco_Feb2017.tsv
 MKRN3	Oncogene	allOnco_Feb2017.tsv
 ALOX5	Oncogene	allOnco_Feb2017.tsv
 FGF8	Oncogene	allOnco_Feb2017.tsv
@@ -2733,6 +2816,7 @@ MSH3	Oncogene	allOnco_Feb2017.tsv
 HDLBP	Oncogene	allOnco_Feb2017.tsv
 PATJ	Oncogene	allOnco_Feb2017.tsv
 HKR1	Oncogene, TranscriptionFactor	allOnco_Feb2017.tsv, addTF_JL.tsv
+ZNF875	Oncogene, TranscriptionFactor	allOnco_Feb2017.tsv, addTF_JL.tsv
 MCM5	Oncogene	allOnco_Feb2017.tsv
 CASC3	Oncogene	allOnco_Feb2017.tsv
 SLC27A1	Oncogene	allOnco_Feb2017.tsv
@@ -2744,6 +2828,7 @@ NR2F1	Oncogene, TranscriptionFactor	allOnco_Feb2017.tsv, addTF_JL.tsv
 B4GALT5	Oncogene	allOnco_Feb2017.tsv
 MAPK7	Oncogene, Kinase	allOnco_Feb2017.tsv, PfamKinase
 SEPT2	Oncogene	allOnco_Feb2017.tsv
+SEPTIN2	Oncogene	allOnco_Feb2017.tsv
 SPINT1	Oncogene	allOnco_Feb2017.tsv
 IL3RA	Oncogene	allOnco_Feb2017.tsv
 NRIP1	Oncogene	allOnco_Feb2017.tsv
@@ -2770,10 +2855,12 @@ PTPN14	Oncogene	allOnco_Feb2017.tsv
 CD69	Oncogene	allOnco_Feb2017.tsv
 XRCC3	Oncogene	allOnco_Feb2017.tsv
 MAGEE1	Oncogene	allOnco_Feb2017.tsv
+MAGEC2	Oncogene	allOnco_Feb2017.tsv
 KDM2B	Oncogene, TranscriptionFactor	allOnco_Feb2017.tsv, addTF_JL.tsv
 APH1A	Oncogene	allOnco_Feb2017.tsv
 CRIP2	Oncogene	allOnco_Feb2017.tsv
 DUX4	Oncogene, TranscriptionFactor	allOnco_Feb2017.tsv, addTF_JL.tsv
+DUX4L1	Oncogene, TranscriptionFactor	allOnco_Feb2017.tsv, addTF_JL.tsv
 GGA1	Oncogene	allOnco_Feb2017.tsv
 PLEKHG2	Oncogene	allOnco_Feb2017.tsv
 MUC5AC	Oncogene	allOnco_Feb2017.tsv
@@ -2782,11 +2869,13 @@ PRKD1	Oncogene, Kinase	allOnco_Feb2017.tsv, PfamKinase
 SLC4A1	Oncogene	allOnco_Feb2017.tsv
 ZFP36L1	Oncogene	allOnco_Feb2017.tsv
 PTPA	Oncogene	allOnco_Feb2017.tsv
+PTPRA	Oncogene	allOnco_Feb2017.tsv
 BAALC	Oncogene	allOnco_Feb2017.tsv
 ASL	Oncogene	allOnco_Feb2017.tsv
 ABCC1	Oncogene	allOnco_Feb2017.tsv
 PRDX1	Oncogene	allOnco_Feb2017.tsv
 KIAA1524	Oncogene	allOnco_Feb2017.tsv
+CIP2A	Oncogene	allOnco_Feb2017.tsv
 AGER	Oncogene	allOnco_Feb2017.tsv
 GAB1	Oncogene	allOnco_Feb2017.tsv
 TGFB2	Oncogene	allOnco_Feb2017.tsv
@@ -2865,17 +2954,20 @@ NAPA	Oncogene	allOnco_Feb2017.tsv
 C2CD5	Oncogene	allOnco_Feb2017.tsv
 EHMT1	Oncogene	allOnco_Feb2017.tsv
 FAM212B	Oncogene	allOnco_Feb2017.tsv
+INKA2	Oncogene	allOnco_Feb2017.tsv
 FGF13	Oncogene	allOnco_Feb2017.tsv
 MAFG	Oncogene, TranscriptionFactor	allOnco_Feb2017.tsv, addTF_JL.tsv
 PKM	Oncogene	allOnco_Feb2017.tsv
 PTCRA	Oncogene	allOnco_Feb2017.tsv
 MCM2	Oncogene	allOnco_Feb2017.tsv
+MCM7	Oncogene	allOnco_Feb2017.tsv
 FOXG1	Oncogene, TranscriptionFactor	allOnco_Feb2017.tsv, addTF_JL.tsv
 RUVBL2	Oncogene	allOnco_Feb2017.tsv
 S100B	Oncogene	allOnco_Feb2017.tsv
 MCF2	Oncogene	allOnco_Feb2017.tsv
 GTF2A1	Oncogene	allOnco_Feb2017.tsv
 CYR61	Oncogene	allOnco_Feb2017.tsv
+CCN1	Oncogene	allOnco_Feb2017.tsv
 XIRP1	Oncogene	allOnco_Feb2017.tsv
 LGR6	Oncogene	allOnco_Feb2017.tsv
 NIPBL	Oncogene	allOnco_Feb2017.tsv
@@ -2964,6 +3056,7 @@ CD46	Oncogene	allOnco_Feb2017.tsv
 VAC14	Oncogene	allOnco_Feb2017.tsv
 DTX3	Oncogene	allOnco_Feb2017.tsv
 BRE	Oncogene	allOnco_Feb2017.tsv
+BABAM2	Oncogene	allOnco_Feb2017.tsv
 RFX5	Oncogene, TranscriptionFactor	allOnco_Feb2017.tsv, addTF_JL.tsv
 RNF139	Oncogene	allOnco_Feb2017.tsv
 MACROD1	Oncogene	allOnco_Feb2017.tsv
@@ -2982,6 +3075,7 @@ RNF157	Oncogene	allOnco_Feb2017.tsv
 TMEM104	Oncogene	allOnco_Feb2017.tsv
 ST6GAL1	Oncogene	allOnco_Feb2017.tsv
 KIAA0895L	Oncogene	allOnco_Feb2017.tsv
+MATCAP1	Oncogene	allOnco_Feb2017.tsv
 TRPV1	Oncogene	allOnco_Feb2017.tsv
 CFAP20	Oncogene	allOnco_Feb2017.tsv
 TCTA	Oncogene	allOnco_Feb2017.tsv
@@ -3010,6 +3104,7 @@ CSTB	Oncogene	allOnco_Feb2017.tsv
 APOBEC2	Oncogene	allOnco_Feb2017.tsv
 RAB1A	Oncogene	allOnco_Feb2017.tsv
 HIST1H1C	Oncogene	allOnco_Feb2017.tsv
+H1-2	Oncogene	allOnco_Feb2017.tsv
 S100A13	Oncogene	allOnco_Feb2017.tsv
 KLK7	Oncogene	allOnco_Feb2017.tsv
 USP7	Oncogene	allOnco_Feb2017.tsv
@@ -3096,6 +3191,7 @@ PTPN21	Oncogene	allOnco_Feb2017.tsv
 WNT6	Oncogene	allOnco_Feb2017.tsv
 EDRF1	Oncogene	allOnco_Feb2017.tsv
 LHFP	Oncogene	allOnco_Feb2017.tsv
+LHFPL6	Oncogene	allOnco_Feb2017.tsv
 GPA33	Oncogene	allOnco_Feb2017.tsv
 RHOC	Oncogene	allOnco_Feb2017.tsv
 RALB	Oncogene	allOnco_Feb2017.tsv
@@ -3107,6 +3203,7 @@ ME3	Oncogene	allOnco_Feb2017.tsv
 MIF	Oncogene	allOnco_Feb2017.tsv
 KIF14	Oncogene	allOnco_Feb2017.tsv
 PBX2	Oncogene, TranscriptionFactor	allOnco_Feb2017.tsv, addTF_JL.tsv
+PBX2P1	Oncogene, TranscriptionFactor	allOnco_Feb2017.tsv, addTF_JL.tsv
 BMI1	Oncogene	allOnco_Feb2017.tsv
 TCL1B	Oncogene	allOnco_Feb2017.tsv
 IL17RB	Oncogene	allOnco_Feb2017.tsv
@@ -3119,6 +3216,7 @@ MIB2	Oncogene	allOnco_Feb2017.tsv
 SELE	Oncogene	allOnco_Feb2017.tsv
 RHBDF2	Oncogene	allOnco_Feb2017.tsv
 DIRC2	Oncogene	allOnco_Feb2017.tsv
+SLC49A4	Oncogene	allOnco_Feb2017.tsv
 THPO	Oncogene	allOnco_Feb2017.tsv
 E2F4	Oncogene, TranscriptionFactor	allOnco_Feb2017.tsv, addTF_JL.tsv
 CBX4	Oncogene	allOnco_Feb2017.tsv
@@ -3126,6 +3224,7 @@ ZFYVE26	Oncogene	allOnco_Feb2017.tsv
 CDK1	Oncogene, Kinase	allOnco_Feb2017.tsv, PfamKinase
 NKAIN2	Oncogene	allOnco_Feb2017.tsv
 NAT1	Oncogene	allOnco_Feb2017.tsv
+SLC6A2	Oncogene	allOnco_Feb2017.tsv
 SLC16A3	Oncogene	allOnco_Feb2017.tsv
 CORO1A	Oncogene	allOnco_Feb2017.tsv
 RRP9	Oncogene	allOnco_Feb2017.tsv
@@ -3139,6 +3238,7 @@ PECAM1	Oncogene	allOnco_Feb2017.tsv
 CDC25B	Oncogene	allOnco_Feb2017.tsv
 ESRRG	Oncogene, TranscriptionFactor	allOnco_Feb2017.tsv, addTF_JL.tsv
 KIAA1147	Oncogene	allOnco_Feb2017.tsv
+DENND11	Oncogene	allOnco_Feb2017.tsv
 MUC17	Oncogene	allOnco_Feb2017.tsv
 GFI1	Oncogene, TranscriptionFactor	allOnco_Feb2017.tsv, addTF_JL.tsv
 AIFM1	Oncogene	allOnco_Feb2017.tsv
@@ -3170,6 +3270,7 @@ RHOBTB1	Oncogene	allOnco_Feb2017.tsv
 TOP2A	Oncogene	allOnco_Feb2017.tsv
 UQCRC2	Oncogene	allOnco_Feb2017.tsv
 DOPEY2	Oncogene	allOnco_Feb2017.tsv
+DOP1B	Oncogene	allOnco_Feb2017.tsv
 FGF1	Oncogene	allOnco_Feb2017.tsv
 GPR68	Oncogene	allOnco_Feb2017.tsv
 ST6GALNAC1	Oncogene	allOnco_Feb2017.tsv
@@ -3194,6 +3295,8 @@ XRCC6	Oncogene	allOnco_Feb2017.tsv
 ACAP1	Oncogene	allOnco_Feb2017.tsv
 SYDE1	Oncogene	allOnco_Feb2017.tsv
 GGTA1P	Oncogene	allOnco_Feb2017.tsv
+GGTA1	Oncogene	allOnco_Feb2017.tsv
+GGTA2P	Oncogene	allOnco_Feb2017.tsv
 TNR	Oncogene	allOnco_Feb2017.tsv
 WNT3	Oncogene	allOnco_Feb2017.tsv
 COL16A1	Oncogene	allOnco_Feb2017.tsv
@@ -3220,6 +3323,7 @@ ELK3	Oncogene, TranscriptionFactor	allOnco_Feb2017.tsv, addTF_JL.tsv
 LRBA	Oncogene	allOnco_Feb2017.tsv
 CCNH	Oncogene	allOnco_Feb2017.tsv
 LTBP3	Oncogene	allOnco_Feb2017.tsv
+LTBP2	Oncogene	allOnco_Feb2017.tsv
 FAIM	Oncogene	allOnco_Feb2017.tsv
 TRPV6	Oncogene	allOnco_Feb2017.tsv
 CYP19A1	Oncogene	allOnco_Feb2017.tsv
@@ -3298,6 +3402,7 @@ CR1L	Oncogene	allOnco_Feb2017.tsv
 GRB10	Oncogene	allOnco_Feb2017.tsv
 SLC43A1	Oncogene	allOnco_Feb2017.tsv
 B3GNT6	Oncogene	allOnco_Feb2017.tsv
+B4GAT1	Oncogene	allOnco_Feb2017.tsv
 TECTA	Oncogene	allOnco_Feb2017.tsv
 ZNF442	Oncogene, TranscriptionFactor	allOnco_Feb2017.tsv, addTF_JL.tsv
 IL2RA	Oncogene	allOnco_Feb2017.tsv
@@ -3333,9 +3438,11 @@ TNFRSF1B	Oncogene	allOnco_Feb2017.tsv
 NBR1	Oncogene	allOnco_Feb2017.tsv
 CHD9	Oncogene	allOnco_Feb2017.tsv
 MARCH3	Oncogene	allOnco_Feb2017.tsv
+MARCHF3	Oncogene	allOnco_Feb2017.tsv
 GNAI2	Oncogene	allOnco_Feb2017.tsv
 PKHD1	Oncogene	allOnco_Feb2017.tsv
 HIST1H1B	Oncogene	allOnco_Feb2017.tsv
+H1-5	Oncogene	allOnco_Feb2017.tsv
 GALNT5	Oncogene	allOnco_Feb2017.tsv
 SULF2	Oncogene	allOnco_Feb2017.tsv
 TLCD2	Oncogene	allOnco_Feb2017.tsv
@@ -3435,6 +3542,7 @@ CCNF	Oncogene	allOnco_Feb2017.tsv
 RBM39	Oncogene	allOnco_Feb2017.tsv
 ZDHHC7	Oncogene	allOnco_Feb2017.tsv
 EIF3A	Oncogene	allOnco_Feb2017.tsv
+EIF6	Oncogene	allOnco_Feb2017.tsv
 HOXA7	Oncogene, TranscriptionFactor	allOnco_Feb2017.tsv, addTF_JL.tsv
 EVL	Oncogene	allOnco_Feb2017.tsv
 LYPD3	Oncogene	allOnco_Feb2017.tsv
@@ -3455,6 +3563,7 @@ IFI30	Oncogene	allOnco_Feb2017.tsv
 STARD3	Oncogene	allOnco_Feb2017.tsv
 CLDN4	Oncogene	allOnco_Feb2017.tsv
 FAM49A	Oncogene	allOnco_Feb2017.tsv
+CYRIA	Oncogene	allOnco_Feb2017.tsv
 MAPRE1	Oncogene	allOnco_Feb2017.tsv
 HDAC6	Oncogene	allOnco_Feb2017.tsv
 C3AR1	Oncogene	allOnco_Feb2017.tsv
@@ -3466,6 +3575,7 @@ MAP4K2	Oncogene, Kinase	allOnco_Feb2017.tsv, PfamKinase
 TNFSF15	Oncogene	allOnco_Feb2017.tsv
 SLC16A1	Oncogene	allOnco_Feb2017.tsv
 ORAOV1	Oncogene	allOnco_Feb2017.tsv
+LTO1	Oncogene	allOnco_Feb2017.tsv
 COL11A1	Oncogene	allOnco_Feb2017.tsv
 HUS1	Oncogene	allOnco_Feb2017.tsv
 CCL7	Oncogene	allOnco_Feb2017.tsv
@@ -3477,12 +3587,14 @@ IL5	Oncogene	allOnco_Feb2017.tsv
 WASF2	Oncogene	allOnco_Feb2017.tsv
 CKS1BP7	Oncogene	allOnco_Feb2017.tsv
 S100A14	Oncogene	allOnco_Feb2017.tsv
+S100A11P1	Oncogene	allOnco_Feb2017.tsv
 RABGAP1L	Oncogene	allOnco_Feb2017.tsv
 SP110	Oncogene, TranscriptionFactor	allOnco_Feb2017.tsv, addTF_JL.tsv
 CCNB1	Oncogene	allOnco_Feb2017.tsv
 AIFM2	Oncogene	allOnco_Feb2017.tsv
 PACSIN2	Oncogene	allOnco_Feb2017.tsv
 MARS	Oncogene	allOnco_Feb2017.tsv
+MARS1	Oncogene	allOnco_Feb2017.tsv
 TBX2	Oncogene, TranscriptionFactor	allOnco_Feb2017.tsv, addTF_JL.tsv
 GEN1	Oncogene	allOnco_Feb2017.tsv
 LMF1	Oncogene	allOnco_Feb2017.tsv
@@ -3520,6 +3632,7 @@ PRR12	TranscriptionFactor	addTF_JL.tsv
 SCML4	TranscriptionFactor	addTF_JL.tsv
 SRCAP	TranscriptionFactor	addTF_JL.tsv
 C11orf95	TranscriptionFactor	addTF_JL.tsv
+ZFTA	TranscriptionFactor	addTF_JL.tsv
 FAM200B	TranscriptionFactor	addTF_JL.tsv
 SGSM2	TranscriptionFactor	addTF_JL.tsv
 ZBED1	TranscriptionFactor	addTF_JL.tsv
@@ -3529,8 +3642,10 @@ ZBED4	TranscriptionFactor	addTF_JL.tsv
 ZBED5	TranscriptionFactor	addTF_JL.tsv
 ZBED6	TranscriptionFactor	addTF_JL.tsv
 ZBED9	TranscriptionFactor	addTF_JL.tsv
+SCAND3	TranscriptionFactor	addTF_JL.tsv
 ARNT2	TranscriptionFactor	addTF_JL.tsv
 ARNTL2	TranscriptionFactor	addTF_JL.tsv
+BMAL2	TranscriptionFactor	addTF_JL.tsv
 ASCL2	TranscriptionFactor	addTF_JL.tsv
 ASCL3	TranscriptionFactor	addTF_JL.tsv
 ASCL4	TranscriptionFactor	addTF_JL.tsv
@@ -3625,6 +3740,7 @@ NFIL3	TranscriptionFactor	addTF_JL.tsv
 NRL	TranscriptionFactor	addTF_JL.tsv
 TEF	TranscriptionFactor	addTF_JL.tsv
 XBP1	TranscriptionFactor	addTF_JL.tsv
+XBP1P1	TranscriptionFactor	addTF_JL.tsv
 AC008770.3	TranscriptionFactor	addTF_JL.tsv
 AC092835.1	TranscriptionFactor	addTF_JL.tsv
 AC138696.1	TranscriptionFactor	addTF_JL.tsv
@@ -3908,6 +4024,7 @@ ZNF319	TranscriptionFactor	addTF_JL.tsv
 ZNF32	TranscriptionFactor	addTF_JL.tsv
 ZNF320	TranscriptionFactor	addTF_JL.tsv
 ZNF322	TranscriptionFactor	addTF_JL.tsv
+ZNF322P1	TranscriptionFactor	addTF_JL.tsv
 ZNF324	TranscriptionFactor	addTF_JL.tsv
 ZNF324B	TranscriptionFactor	addTF_JL.tsv
 ZNF326	TranscriptionFactor	addTF_JL.tsv
@@ -4108,6 +4225,7 @@ ZNF639	TranscriptionFactor	addTF_JL.tsv
 ZNF641	TranscriptionFactor	addTF_JL.tsv
 ZNF644	TranscriptionFactor	addTF_JL.tsv
 ZNF645	TranscriptionFactor	addTF_JL.tsv
+CBLL2	TranscriptionFactor	addTF_JL.tsv
 ZNF646	TranscriptionFactor	addTF_JL.tsv
 ZNF648	TranscriptionFactor	addTF_JL.tsv
 ZNF649	TranscriptionFactor	addTF_JL.tsv
@@ -4156,6 +4274,7 @@ ZNF705A	TranscriptionFactor	addTF_JL.tsv
 ZNF705B	TranscriptionFactor	addTF_JL.tsv
 ZNF705D	TranscriptionFactor	addTF_JL.tsv
 ZNF705E	TranscriptionFactor	addTF_JL.tsv
+ZNF705EP	TranscriptionFactor	addTF_JL.tsv
 ZNF705G	TranscriptionFactor	addTF_JL.tsv
 ZNF706	TranscriptionFactor	addTF_JL.tsv
 ZNF707	TranscriptionFactor	addTF_JL.tsv
@@ -4215,6 +4334,7 @@ ZNF785	TranscriptionFactor	addTF_JL.tsv
 ZNF786	TranscriptionFactor	addTF_JL.tsv
 ZNF787	TranscriptionFactor	addTF_JL.tsv
 ZNF788	TranscriptionFactor	addTF_JL.tsv
+ZNF788P	TranscriptionFactor	addTF_JL.tsv
 ZNF789	TranscriptionFactor	addTF_JL.tsv
 ZNF79	TranscriptionFactor	addTF_JL.tsv
 ZNF790	TranscriptionFactor	addTF_JL.tsv
@@ -4288,6 +4408,7 @@ ZSCAN5B	TranscriptionFactor	addTF_JL.tsv
 ZSCAN5C	TranscriptionFactor	addTF_JL.tsv
 ZSCAN9	TranscriptionFactor	addTF_JL.tsv
 ZUFSP	TranscriptionFactor	addTF_JL.tsv
+ZUP1	TranscriptionFactor	addTF_JL.tsv
 ZXDA	TranscriptionFactor	addTF_JL.tsv
 ZXDB	TranscriptionFactor	addTF_JL.tsv
 ZXDC	TranscriptionFactor	addTF_JL.tsv
@@ -4304,6 +4425,7 @@ MBNL2	TranscriptionFactor	addTF_JL.tsv
 ZGPAT	TranscriptionFactor	addTF_JL.tsv
 CENPB	TranscriptionFactor	addTF_JL.tsv
 CENPBD1	TranscriptionFactor	addTF_JL.tsv
+CENPBD1P	TranscriptionFactor	addTF_JL.tsv
 JRK	TranscriptionFactor	addTF_JL.tsv
 JRKL	TranscriptionFactor	addTF_JL.tsv
 TIGD1	TranscriptionFactor	addTF_JL.tsv
@@ -4516,6 +4638,7 @@ LMX1A	TranscriptionFactor	addTF_JL.tsv
 LMX1B	TranscriptionFactor	addTF_JL.tsv
 MEIS2	TranscriptionFactor	addTF_JL.tsv
 MEIS3	TranscriptionFactor	addTF_JL.tsv
+MEIS3P1	TranscriptionFactor	addTF_JL.tsv
 MEOX1	TranscriptionFactor	addTF_JL.tsv
 MEOX2	TranscriptionFactor	addTF_JL.tsv
 MKX	TranscriptionFactor	addTF_JL.tsv
@@ -4646,6 +4769,7 @@ AEBP1	TranscriptionFactor	addTF_JL.tsv
 ARHGAP35	TranscriptionFactor	addTF_JL.tsv
 BPTF	TranscriptionFactor	addTF_JL.tsv
 BRF2	TranscriptionFactor	addTF_JL.tsv
+ZFP36L2	TranscriptionFactor	addTF_JL.tsv
 CARF	TranscriptionFactor	addTF_JL.tsv
 CC2D1A	TranscriptionFactor	addTF_JL.tsv
 CEBPZ	TranscriptionFactor	addTF_JL.tsv
@@ -4719,6 +4843,7 @@ STAT4	TranscriptionFactor	addTF_JL.tsv
 EOMES	TranscriptionFactor	addTF_JL.tsv
 MGA	TranscriptionFactor	addTF_JL.tsv
 T	TranscriptionFactor	addTF_JL.tsv
+TBXT	TranscriptionFactor	addTF_JL.tsv
 TBR1	TranscriptionFactor	addTF_JL.tsv
 TBX1	TranscriptionFactor	addTF_JL.tsv
 TBX10	TranscriptionFactor	addTF_JL.tsv
@@ -4950,6 +5075,8 @@ PEAK1	Kinase	PfamKinase
 CSNK2A2	Kinase	PfamKinase
 PIK3C2B	Kinase	PfamKinase
 IGH@	Oncogene	addedToallOnco_Feb2017.tsv
+IGH	Oncogene	addedToallOnco_Feb2017.tsv
 IGH-@	Oncogene	addedToallOnco_Feb2017.tsv
 IGL@	Oncogene	addedToallOnco_Feb2017.tsv
+IGL	Oncogene	addedToallOnco_Feb2017.tsv
 IGL-@	Oncogene	addedToallOnco_Feb2017.tsv
