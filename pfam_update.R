@@ -70,7 +70,7 @@ new_symbol_pfam <- read_tsv("~/Downloads/pfamDataBiomart_2023_01_01.tsv") %>%
                                 (hgnc_symbol == "SRPK1" & pfam_id == "PF00069") ~ 35888879,
                                 (hgnc_symbol == "SRPK2" & pfam_id == "PF00069") ~ 105169221,
                                 (hgnc_symbol == "SRPK3" & pfam_id == "PF00069") ~ 153785511,
-                                TRUE ~ as.numeric(domain_start))) %>%
+                                TRUE ~ as.numeric(domain_end))) %>%
   unique() %>%
   write_rds("~/Downloads/pfamDataBioMart.rds")
 
