@@ -35,45 +35,44 @@ dom_rm <- pfam_excel %>%
 names(pfam_excel)
 
 new_symbol_pfam <- read_tsv("~/Downloads/pfamDataBiomart_2023_01_01.tsv") %>%
-  mutate(remove_row = case_when(hgnc_symbol == "NTRK1" & domain_start == "156841034" ~ "yes",
-                                hgnc_symbol == "CAMKV" & domain_start == "49861189" ~ "yes",
-                                hgnc_symbol == "CDK1" & domain_start == "60785784" ~ "yes",
-                                hgnc_symbol == "CDK5" & domain_start == "151056615" ~ "yes",
-                                hgnc_symbol == "EPHA6" & domain_start == "97592736" ~ "yes",
-                                hgnc_symbol == "MINK1" & domain_start == "4884468" ~ "yes",
-                                hgnc_symbol == "MKNK1" & domain_start == "46576582" ~ "yes",
-                                hgnc_symbol == "NEK10" & domain_start == "27192196" ~ "yes",
-                                hgnc_symbol == "NTRK1" & domain_start == "156841034" ~ "yes",
-                                hgnc_symbol == "PRKCB" & domain_start == "24214672" ~ "yes",
-                                hgnc_symbol == "STRADA" & domain_start == "63690289" ~ "yes",
-                                hgnc_symbol == "TYK2" & domain_start == "10356586" ~ "yes",
-                                hgnc_symbol == "EIF1AKI" & pfam_id == "PF00069" & domain_start == "39973694" ~ "yes",
+  mutate(remove_row = case_when((hgnc_symbol == "NTRK1" & domain_start == "156841034") ~ "yes",
+                                (hgnc_symbol == "CAMKV" & domain_start == "49861189") ~ "yes",
+                                (hgnc_symbol == "CDK1" & domain_start == "60785784") ~ "yes",
+                                (hgnc_symbol == "CDK5" & domain_start == "151056615") ~ "yes",
+                                (hgnc_symbol == "EPHA6" & domain_start == "97592736") ~ "yes",
+                                (hgnc_symbol == "MINK1" & domain_start == "4884468") ~ "yes",
+                                (hgnc_symbol == "MKNK1" & domain_start == "46576582") ~ "yes",
+                                (hgnc_symbol == "NEK10" & domain_start == "27192196") ~ "yes",
+                                (hgnc_symbol == "NTRK1" & domain_start == "156841034") ~ "yes",
+                                (hgnc_symbol == "PRKCB" & domain_start == "24214672") ~ "yes",
+                                (hgnc_symbol == "STRADA" & domain_start == "63690289") ~ "yes",
+                                (hgnc_symbol == "TYK2" & domain_start == "10356586") ~ "yes",
                                 TRUE ~ "false")) %>%
   filter(remove_row != "yes") %>%
   dplyr::select(-remove_row) %>%
-  mutate(domain_start = case_when(hgnc_symbol == "CDC7" & pfam_id == "PF00069" ~ 91507912,
-                                  hgnc_symbol == "EIF2AK1" & pfam_id == "PF00069" ~ 6026742,
-                                  hgnc_symbol == "EIF2AK3" & pfam_id == "PF00069" ~ 88557861,
-                                  hgnc_symbol == "LATS1" & pfam_id == "PF00069" ~ 149662091,
-                                  hgnc_symbol == "LATS2" & pfam_id == "PF00069" ~ 20975217,
-                                  hgnc_symbol == "MASTL" & pfam_id == "PF00069" ~ 27155534,
-                                  hgnc_symbol == "SRPK1" & pfam_id == "PF00069" ~ 35835312,
-                                  hgnc_symbol == "SRPK2" & pfam_id == "PF00069" ~ 105117846,
-                                  hgnc_symbol == "SRPK3" & pfam_id == "PF00069" ~ 153781548,
-                                  hgnc_symbol == "EIF2AK4" & pfam_id == "PF00069" & domain_start == "39978140" ~ 39973694,
+  unique() %>%
+  mutate(domain_start = case_when((hgnc_symbol == "CDC7" & pfam_id == "PF00069") ~ 91507912,
+                                  (hgnc_symbol == "EIF2AK1" & pfam_id == "PF00069") ~ 6026742,
+                                  (hgnc_symbol == "EIF2AK3" & pfam_id == "PF00069") ~ 88557861,
+                                  (hgnc_symbol == "LATS1" & pfam_id == "PF00069") ~ 149662091,
+                                  (hgnc_symbol == "LATS2" & pfam_id == "PF00069") ~ 20975217,
+                                  (hgnc_symbol == "MASTL" & pfam_id == "PF00069") ~ 27155534,
+                                  (hgnc_symbol == "SRPK1" & pfam_id == "PF00069") ~ 35835312,
+                                  (hgnc_symbol == "SRPK2" & pfam_id == "PF00069") ~ 105117846,
+                                  (hgnc_symbol == "SRPK3" & pfam_id == "PF00069") ~ 153781548,
                                   TRUE ~ as.numeric(domain_start)),
-         domain_end = case_when(hgnc_symbol == "CDC7" & pfam_id == "PF00069" ~ 91524105,
-                                hgnc_symbol == "EIF2AK1" & pfam_id == "PF00069" ~ 6047042,
-                                hgnc_symbol == "EIF2AK3" & pfam_id == "PF00069" ~ 88579624,
-                                hgnc_symbol == "LATS1" & pfam_id == "PF00069" ~ 149680352,
-                                hgnc_symbol == "LATS2" & pfam_id == "PF00069" ~ 20983701,
-                                hgnc_symbol == "MASTL" & pfam_id == "PF00069" ~ 27186401,
-                                hgnc_symbol == "SRPK1" & pfam_id == "PF00069" ~ 35888879,
-                                hgnc_symbol == "SRPK2" & pfam_id == "PF00069" ~ 105169221,
-                                hgnc_symbol == "SRPK3" & pfam_id == "PF00069" ~ 153785511,
+         domain_end = case_when((hgnc_symbol == "CDC7" & pfam_id == "PF00069") ~ 91524105,
+                                (hgnc_symbol == "EIF2AK1" & pfam_id == "PF00069") ~ 6047042,
+                                (hgnc_symbol == "EIF2AK3" & pfam_id == "PF00069") ~ 88579624,
+                                (hgnc_symbol == "LATS1" & pfam_id == "PF00069") ~ 149680352,
+                                (hgnc_symbol == "LATS2" & pfam_id == "PF00069") ~ 20983701,
+                                (hgnc_symbol == "MASTL" & pfam_id == "PF00069") ~ 27186401,
+                                (hgnc_symbol == "SRPK1" & pfam_id == "PF00069") ~ 35888879,
+                                (hgnc_symbol == "SRPK2" & pfam_id == "PF00069") ~ 105169221,
+                                (hgnc_symbol == "SRPK3" & pfam_id == "PF00069") ~ 153785511,
                                 TRUE ~ as.numeric(domain_start))) %>%
   unique() %>%
+  write_rds("~/Downloads/pfamDataBioMart.rds")
 
 
 
-class(new_symbol_pfam$domain_start)
