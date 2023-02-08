@@ -8,7 +8,7 @@ pfam <- readRDS("inst/extdata/pfamDataBioMart.rds")
 names(pfam)
 
 kinase <- pfam %>%
-  filter("kinase", NAME)) %>%
+  filter("kinase", NAME) %>%
   select(pfam_id, NAME) %>%
   unique()
 
@@ -19,7 +19,7 @@ intersect(updated$gene, kinase$NAME)
 pfam2 <- pfam %>%
   group_by(hgnc_symbol, pfam_id, chromosome_name, gene_start, gene_end, strand, NAME) %>%
   summarise(domains = str_c(domain_start, domain_end, sep = "-", collapse = "; ")) %>%
-  filter(";", domains)) %>%
+  filter(";", domains) %>%
   filter(pfam_id %in% kinase$pfam_id) %>%
   mutate(domain_start_to_remove = case_when(hgnc_symbol == "NTRK1" ~ "156841034",
                                             TRUE ~ NA_character_))
@@ -47,5 +47,33 @@ new_symbol_pfam <- read_tsv("~/Downloads/pfamDataBiomart_2023_01_01.tsv") %>%
                                 hgnc_symbol == "PRKCB" & domain_start == "24214672" ~ "yes",
                                 hgnc_symbol == "STRADA" & domain_start == "63690289" ~ "yes",
                                 hgnc_symbol == "TYK2" & domain_start == "10356586" ~ "yes",
-                                TRUE ~ "false"))
+                                hgnc_symbol == "EIF1AKI" & pfam_id == "PF00069" & domain_start == "39973694" ~ "yes",
+                                TRUE ~ "false")) %>%
+  filter(remove_row != "yes") %>%
+  dplyr::select(-remove_row) %>%
+  mutate(domain_start = case_when(hgnc_symbol == "CDC7" & pfam_id == "PF00069" ~ 91507912,
+                                  hgnc_symbol == "EIF2AK1" & pfam_id == "PF00069" ~ 6026742,
+                                  hgnc_symbol == "EIF2AK3" & pfam_id == "PF00069" ~ 88557861,
+                                  hgnc_symbol == "LATS1" & pfam_id == "PF00069" ~ 149662091,
+                                  hgnc_symbol == "LATS2" & pfam_id == "PF00069" ~ 20975217,
+                                  hgnc_symbol == "MASTL" & pfam_id == "PF00069" ~ 27155534,
+                                  hgnc_symbol == "SRPK1" & pfam_id == "PF00069" ~ 35835312,
+                                  hgnc_symbol == "SRPK2" & pfam_id == "PF00069" ~ 105117846,
+                                  hgnc_symbol == "SRPK3" & pfam_id == "PF00069" ~ 153781548,
+                                  hgnc_symbol == "EIF2AK4" & pfam_id == "PF00069" & domain_start == "39978140" ~ 39973694,
+                                  TRUE ~ as.numeric(domain_start)),
+         domain_end = case_when(hgnc_symbol == "CDC7" & pfam_id == "PF00069" ~ 91524105,
+                                hgnc_symbol == "EIF2AK1" & pfam_id == "PF00069" ~ 6047042,
+                                hgnc_symbol == "EIF2AK3" & pfam_id == "PF00069" ~ 88579624,
+                                hgnc_symbol == "LATS1" & pfam_id == "PF00069" ~ 149680352,
+                                hgnc_symbol == "LATS2" & pfam_id == "PF00069" ~ 20983701,
+                                hgnc_symbol == "MASTL" & pfam_id == "PF00069" ~ 27186401,
+                                hgnc_symbol == "SRPK1" & pfam_id == "PF00069" ~ 35888879,
+                                hgnc_symbol == "SRPK2" & pfam_id == "PF00069" ~ 105169221,
+                                hgnc_symbol == "SRPK3" & pfam_id == "PF00069" ~ 153785511,
+                                TRUE ~ as.numeric(domain_start))) %>%
+  unique() %>%
 
+
+
+class(new_symbol_pfam$domain_start)
