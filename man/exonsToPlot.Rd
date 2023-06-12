@@ -7,16 +7,16 @@
 \format{
 When read in via readRDS, the following information is available:
 \itemize{
-\item contig
-\item type
-\item start
-\item end
-\item strand
-\item attributes
-\item geneName
-\item geneID
-\item transcript
-\item exonNumber
+\item contig: Denotes chromosome name
+\item type: Denotes if coordinates correspond to gene or exon
+\item start: Denotes genomic start position
+\item end: Denotes genomic end position
+\item strand: Denotes strand the feature is on
+\item attributes: Feature attributes in from gtf file
+\item geneName: Denotes gene symbol
+\item geneID: Denotes Ensemble gene id
+\item transcript: Denotes Ensemble transcript id
+\item exonNumber: Denotes exon rank in transcript
 }
 }
 \description{
@@ -25,6 +25,6 @@ detailed desc
 see details below).
 }
 \references{
-if any
+Feature information extracted from gencode.v27.primary_assembly.annotation.gtf.gz
 }
 \keyword{datasets}

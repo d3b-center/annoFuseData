@@ -5,36 +5,35 @@
 \alias{merged_arriba_tcga}
 \title{merged_arriba_tcga.tsv}
 \format{
-When read in via read.delim, the following information is available:
+When read in via read.delim(...,check.names=FALSE,stringsAsFactors = F), the following information is available:
 \itemize{
-\item X.gene1
-\item gene2
-\item strand1.gene.fusion.
-\item strand2.gene.fusion.
-\item breakpoint1
-\item breakpoint2
-\item site1
-\item site2
-\item type
-\item direction1
-\item direction2
-\item split_reads1
-\item split_reads2
-\item discordant_mates
-\item coverage1
-\item coverage2
-\item confidence
-\item closest_genomic_breakpoint1
-\item closest_genomic_breakpoint2
-\item filters
-\item fusion_transcript
-\item reading_frame
-\item peptide_sequence
-\item read_identifiers
-\item Sample
-\item gene1..gene2
-\item annots
-\item Caller
+\item #gene1: 5` end of fusion, if breakpoint is intergenic downstream and upstream genes are provided as a comma separated
+\item gene2: 3` end of fusion,if breakpoint is intergenic downstream and upstream genes are provided as a comma separated
+\item strand1(gene/fusion): The strand before the slash reflects the strand of the gene according to the gene annotation supplied to arriba and the value after the slash reflects the strand that is transcribed. If breakpoint is intergenic the value is ".".
+\item strand2(gene/fusion): The strand before the slash reflects the strand of the gene according to the gene annotation supplied to arriba and the value after the slash reflects the strand that is transcribed.If breakpoint is intergenic the value is ".".
+\item breakpoint1: Genomic coordinate of 5` breakpoint
+\item breakpoint2: Genomic coordinate of 3` breakpoint
+\item site1: Provides information of location of 5` breakpoint values can be 5' UTR, 3' UTR, UTR (overlapping with a 5' UTR as well as a 3' UTR), CDS (coding sequence), exon, intron, and intergenic
+\item site2: Provides information of location of 5` breakpoint values can be 5' UTR, 3' UTR, UTR (overlapping with a 3' UTR as well as a 3' UTR), CDS (coding sequence), exon, intron, and intergenic
+\item type: Annotates the predicted event from the orientation of the reads supporting the fusion
+\item direction1: Denotes the orientation of the fusion
+\item direction2: Denotes the orientation of the fusion
+\item split_reads1: The number of supporting split fragments with an anchor in gene1
+\item split_reads2: The number of supporting split fragments with an anchor in gene2
+\item discordant_mates: Number of spanning fragments suporting the site
+\item coverage1: Denotes coverage over breakpoint1
+\item coverage2: Denotes coverage over breakpoint2
+\item confidence: Confidence annotation from arriba
+\item closest_genomic_breakpoint1: Only applicable when arriba is run with matched WGS sample
+\item closest_genomic_breakpoint2:  Only applicable when arriba is run with matched WGS sample
+\item filters: Denotes filters used to removed supporting reads
+\item fusion_transcript: Denotes the fusion transcript sequence
+\item reading_frame: Denotes if the 3` gene in fusion is fused either as in-frame, out-of-frame
+\item peptide_sequence: Denotes the peptide sequence
+\item read_identifiers: Comma separated names of reads that support the site
+\item tumor_id: Sample ids for the input fusion calls
+\item gene1..gene2: Name of the fusion
+\item annots: Annottaion from FusionAnnotator
 }
 }
 \description{
@@ -42,6 +41,6 @@ detailed desc
 8983 * 28 columns
 }
 \references{
-if any
+Arriba documentation: https://arriba.readthedocs.io/en/latest/output-files/.TCGA sample information from supplementary file from Driver Fusions and Their Implications in the Development and Treatment of Human Cancers available at https://www.sciencedirect.com/science/article/pii/S2211124718303954
 }
 \keyword{datasets}

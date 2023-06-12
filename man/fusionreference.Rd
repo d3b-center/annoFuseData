@@ -7,9 +7,9 @@
 \format{
 When read in via read.delim, the following information is available:
 \itemize{
-\item FusionName
-\item file
-\item type
+\item FusionName: Denotes Fusion name
+\item file: Source file used for annotation
+\item type: Denotes annotation type; values are TCGAFusion
 }
 }
 \description{

@@ -7,12 +7,12 @@
 \format{
 When read in via read.delim, the following information is available:
 \itemize{
-\item gene_id
-\item SRR1069188
-\item SRR1070986
-\item SRR1071289
-\item SRR1071880
-\item SRR1072178
+\item gene_id: Denotes gene symbol
+\item SRR1069188: FPKM per gene for rna sample GTEX-XLM4-2926-SM-4AT59
+\item SRR1070986: FPKM per gene for rna sample GTEX-WZTO-0011-R6B-SM-4E3J6
+\item SRR1071289: FPKM per gene for rna sample GTEX-X4XY-0011-R8A-SM-46MVC
+\item SRR1071880: FPKM per gene for rna sample GTEX-X261-0011-R8A-SM-4E3I5
+\item SRR1072178: FPKM per gene for rna sample GTEX-XMD1-0011-R5A-SM-4AT47
 }
 }
 \description{
@@ -20,6 +20,6 @@ detailed desc
 58581*6
 }
 \references{
-if any, GTEX?
+GTEX: https://www.gtexportal.org/home/
 }
 \keyword{datasets}

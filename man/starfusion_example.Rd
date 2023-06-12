@@ -5,34 +5,34 @@
 \alias{starfusion_example}
 \title{starfusion_example.tsv}
 \format{
-When read in via read.delim, the following information is available:
+When read in via read.delim(...,check.names=FALSE,stringsAsFactors = F), the following information is available:
 \itemize{
-\item X.FusionName
-\item JunctionReadCount
-\item SpanningFragCount
-\item SpliceType
-\item LeftGene
-\item LeftBreakpoint
-\item RightGene
-\item RightBreakpoint
-\item LargeAnchorSupport
-\item FFPM
-\item LeftBreakDinuc
-\item LeftBreakEntropy
-\item RightBreakDinuc
-\item RightBreakEntropy
-\item annots
-\item CDS_LEFT_ID
-\item CDS_LEFT_RANGE
-\item CDS_RIGHT_ID
-\item CDS_RIGHT_RANGE
-\item PROT_FUSION_TYPE
-\item FUSION_MODEL
-\item FUSION_CDS
-\item FUSION_TRANSL
-\item PFAM_LEFT
-\item PFAM_RIGHT
-\item tumor_id
+\item #FusionName: Denotes Fusion name
+\item JunctionReadCount: Number of supporting split read supporting the site of putative fusion
+\item SpanningFragCount: Number of spanning fragments suporting the site
+\item SpliceType: Denotes whether breakpoint is located on an exon junction
+\item LeftGene: 5` end of fusion
+\item LeftBreakpoint: Genomic coordinate of 5` breakpoint
+\item RightGene: 3` end of fusion
+\item RightBreakpoint: Genomic coordinate of 3` breakpoint
+\item LargeAnchorSupport: Denotes whether there are split reads that provide long anchor supporting read on both sides of breakpoint
+\item FFPM: Denotes exprression estimate
+\item LeftBreakDinuc: Denotes 2 bases flanking to the left of the breakpoint
+\item LeftBreakEntropy: Denotes Shannon Entropy for 15 exon bases flanking to the left of the breakpoint
+\item RightBreakDinuc: Denotes 2 bases flanking to the right of the breakpoint
+\item RightBreakEntropy: Denotes Shannon Entropy for 15 exon bases flanking to the right of the breakpoint
+\item annots: Annotation from FusionAnnotator
+\item CDS_LEFT_ID: Denotes cds_id flanking to the left of the breakpoint
+\item CDS_LEFT_RANGE: Denotes cds range to the left of the breakpoint
+\item CDS_RIGHT_ID: Denotes cds_id flanking to the right of the breakpoint
+\item CDS_RIGHT_RANGE: Denotes cds range to the right of the breakpoint
+\item PROT_FUSION_TYPE: Denotes if the 3` gene in fusion is fused either as INFRAME, FRAMESHIFT or other
+\item FUSION_MODEL: Denotes gene structure of the reconstructed fusion
+\item FUSION_CDS: Denotes cds sequence of the reconstructed fusion
+\item FUSION_TRANSL: Denotes translated sequence of the reconstructed fusion
+\item PFAM_LEFT: Denotes pfam id and location for reconstructed fusion transcript left to the breakpoint
+\item PFAM_RIGHT: Denotes pfam id and location for reconstructed fusion transcript right to the breakpoint
+\item tumor_id: Sample ids for the input fusion calls
 }
 }
 \description{
@@ -40,6 +40,6 @@ detailed desc
 One row of the typical output file from STAR-fusion (version TODO)
 }
 \references{
-if any
+Star-Fusion documentation: https://github.com/STAR-Fusion/STAR-Fusion/wiki
 }
 \keyword{datasets}

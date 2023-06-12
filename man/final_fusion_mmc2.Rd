@@ -7,13 +7,13 @@
 \format{
 When read in via read.delim, the following information is available:
 \itemize{
-\item Cancer
-\item Sample
-\item Fusion
-\item Junction
-\item Spanning
-\item Breakpoint1
-\item Breakpoint2
+\item Cancer: Denotes TCGA cancer types
+\item Sample: Denotes TCGA sample id
+\item Fusion: Denotes TCGA fusion call
+\item Junction: Denotes Number of supporting split read supporting the site of putative fusion
+\item Spanning: Number of spanning fragments suporting the site
+\item Breakpoint1: Genomic coordinate of 5` breakpoint
+\item Breakpoint2: Genomic coordinate of 3` breakpoint
 }
 }
 \description{

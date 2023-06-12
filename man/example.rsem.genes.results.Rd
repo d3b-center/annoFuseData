@@ -7,21 +7,18 @@
 \format{
 When read in via read.delim, the following information is available:
 \itemize{
-\item gene_id
-\item transcript_id.s.
-\item length
-\item effective_length
-\item expected_count
-\item TPM
-\item FPKM
+\item gene_id: Ensemble gene id and symbol
+\item transcript_id: Ensemble transcript id
+\item length: Denotes gene length
+\item effective_length: Denotes mappable gene regionlength
+\item expected_count: Number of reads mapping to transcripts of gene_id
+\item TPM: Transcripts Per Kilobase Million per gene_id
+\item FPKM: Fragments Per Kilobase Million per gene_id
 }
 }
 \description{
 detailed desc
 58347 observations are included, with details about 7 different features (
 see details below).
-}
-\references{
-if any
 }
 \keyword{datasets}

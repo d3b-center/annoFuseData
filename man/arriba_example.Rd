@@ -5,39 +5,42 @@
 \alias{arriba_example}
 \title{arriba_example.tsv}
 \format{
-When read in via read.delim, the following information is available:
+When read in via read.delim(...,check.names=FALSE,stringsAsFactors = F), the following information is available:
 \itemize{
-\item X.gene1: TODO - TODO: check if this is indeed the way it is supposed to be read in (if not, we would need to add a dependency to the data package as well)
-\item gene2: TODO
-\item strand1.gene.fusion.: TODO
-\item strand2.gene.fusion.: TODO
-\item breakpoint1: TODO
-\item breakpoint2: TODO
-\item site1: TODO
-\item site2: TODO
-\item type: TODO
-\item direction1: TODO
-\item direction2: TODO
-\item split_reads1: TODO
-\item split_reads2: TODO
-\item discordant_mates: TODO
-\item coverage1: TODO
-\item coverage2: TODO
-\item confidence: TODO
-\item closest_genomic_breakpoint1: TODO
-\item closest_genomic_breakpoint2: TODO
-\item filters: TODO
-\item fusion_transcript: TODO
-\item reading_frame: TODO
-\item peptide_sequence: TODO
-\item read_identifiers: TODO
-\item tumor_id: TODO
-\item gene1..gene2: TODO
-\item annots: TODO
+\item #gene1: 5` end of fusion, if breakpoint is intergenic downstream and upstream genes are provided as a comma separated
+\item gene2: 3` end of fusion,if breakpoint is intergenic downstream and upstream genes are provided as a comma separated
+\item strand1(gene/fusion): The strand before the slash reflects the strand of the gene according to the gene annotation supplied to arriba and the value after the slash reflects the strand that is transcribed. If breakpoint is intergenic the value is ".".
+\item strand2(gene/fusion): The strand before the slash reflects the strand of the gene according to the gene annotation supplied to arriba and the value after the slash reflects the strand that is transcribed.If breakpoint is intergenic the value is ".".
+\item breakpoint1: Genomic coordinate of 5` breakpoint
+\item breakpoint2: Genomic coordinate of 3` breakpoint
+\item site1: Provides information of location of 5` breakpoint values can be 5' UTR, 3' UTR, UTR (overlapping with a 5' UTR as well as a 3' UTR), CDS (coding sequence), exon, intron, and intergenic
+\item site2: Provides information of location of 5` breakpoint values can be 5' UTR, 3' UTR, UTR (overlapping with a 3' UTR as well as a 3' UTR), CDS (coding sequence), exon, intron, and intergenic
+\item type: Annotates the predicted event from the orientation of the reads supporting the fusion
+\item direction1: Denotes the orientation of the fusion
+\item direction2: Denotes the orientation of the fusion
+\item split_reads1: The number of supporting split fragments with an anchor in gene1
+\item split_reads2: The number of supporting split fragments with an anchor in gene2
+\item discordant_mates: Number of spanning fragments suporting the site
+\item coverage1: Denotes coverage over breakpoint1
+\item coverage2: Denotes coverage over breakpoint2
+\item confidence: Confidence annotation from arriba
+\item closest_genomic_breakpoint1: Only applicable when arriba is run with matched WGS sample
+\item closest_genomic_breakpoint2:  Only applicable when arriba is run with matched WGS sample
+\item filters: Denotes filters used to removed supporting reads
+\item fusion_transcript: Denotes the fusion transcript sequence
+\item reading_frame: Denotes if the 3` gene in fusion is fused either as in-frame, out-of-frame
+\item peptide_sequence: Denotes the peptide sequence
+\item read_identifiers: Comma separated names of reads that support the site
+\item tumor_id: Sample ids for the input fusion calls
+\item gene1..gene2: Name of the fusion
+\item annots: Annottaion from FusionAnnotator
 }
 }
 \description{
-detailed desc: TODO
+detailed desc: Arriba fusion calls from v16 OpenPBTA
 25 rows are included, with details about 27 different features (see details below).
+}
+\references{
+Arriba documentation: https://arriba.readthedocs.io/en/latest/output-files/
 }
 \keyword{datasets}

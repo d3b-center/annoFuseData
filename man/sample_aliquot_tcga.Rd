@@ -7,15 +7,15 @@
 \format{
 When read in via read.delim, the following information is available:
 \itemize{
-\item name
-\item sample_id
-\item aliquot_id
+\item name: TCGA sample name
+\item sample_id: TCGA sample id
+\item aliquot_id: TCGA aliquot id
 }
 }
 \description{
 detailed desc
 }
 \references{
-if any
+Supplementary file from Driver Fusions and Their Implications in the Development and Treatment of Human Cancers available at https://www.sciencedirect.com/science/article/pii/S2211124718303954
 }
 \keyword{datasets}
