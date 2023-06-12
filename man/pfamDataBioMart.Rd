@@ -7,17 +7,17 @@
 \format{
 When read in via readRDS, the following information is available:
 \itemize{
-\item hgnc_symbol
-\item pfam_id
-\item chromosome_name
-\item gene_start
-\item gene_end
-\item strand
-\item NAME
-\item DESC
-\item domain_chr
-\item domain_start
-\item domain_end
+\item hgnc_symbol: Denotes gene symbol
+\item pfam_id: Denotes pfam id
+\item chromosome_name: Chromosome name for the gene region
+\item gene_start: Genomic start coordinate of gene
+\item gene_end: Genomic end coordinate of gene
+\item strand: Strand information of the gene
+\item NAME: Pfam domian name
+\item DESC: Pfam domain description
+\item domain_chr: Pfam domain chromsome name
+\item domain_start: Pfam domain genomic start coordinate
+\item domain_end: Pfam domain genomic end coordinate
 }
 }
 \description{

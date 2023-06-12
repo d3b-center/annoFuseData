@@ -6,6 +6,37 @@
 \title{PutativeDriverAnnoFuse.tsv}
 \format{
 When read in via read.delim, the following information is available:
+\itemize{
+\item Sample: Sample ids for the input fusion calls
+\item LeftBreakpoint: Coordinates of breakpoint in Gene1A( if intergenic fusion the breakpoint here refers to breakpoint assigned to the nearest genes Gene1A/Gene2A)
+\item RightBreakpoint: Coordinates of breakpoint in Gene1B( if intergenic fusion the breakpoint here refers to breakpoint assigned to the nearest genes Gene1B/Gene2B)
+\item FusionName: Name of the fusion
+\item Caller: Caller names for the input fusion calls
+\item Fusion_Type: Caller provided annotation for 3` gene in fusion is fused either as in-frame, frameshift or other
+\item JunctionReadCount: Number of supporting split read supporting the site of putative fusion
+\item SpanningFragCount: Number of spanning fragments suporting the site
+\item Confidence: Caller provided confidence of the putative fusion
+\item annots: Annotation from FusionAnnotator
+\item Gene1A: 5` end of fusion, if breakpoint is intergenic this column provides closest upstream gene
+\item Gene2A: 5` end of fusion, if breakpoint is intergenic this column provides the closest downstream gene
+\item Gene1B: 3` end of fusion, if breakpoint is intergenic this column provides closest upstream gene
+\item Gene2B: 3` end of fusion, if breakpoint is intergenic this column provides the closest downstream gene
+\item BreakpointLocation: Contains annotation of the location of breakpoint as intragenic or intergenic
+\item SpanningDelta: Provides difference between number of spanning fragments suporting the site mius number of supporting split read supporting the site
+\item reciprocal_exists: Annotates if a reciprocal fusion is also called in the input fusion calls
+\item Gene1A_anno: Annotates if Gene1A is TumorSuppressorGene, CosmicCensus, TranscriptionFactor.Oncogene or/and Kinase
+\item Gene1B_anno: Annotates if Gene1B is TumorSuppressorGene, CosmicCensus, TranscriptionFactor.Oncogene or/and Kinase
+\item Gene2A_anno: Annotates if Gene2A is TumorSuppressorGene, CosmicCensus, TranscriptionFactor.Oncogene or/and Kinase
+\item Gene2B_anno: Annotates if Gene2B is TumorSuppressorGene, CosmicCensus, TranscriptionFactor.Oncogene or/and Kinase
+\item Fusion_anno: Annotates if FusionName is in TCGA fusion calls
+\item kinaseDomainRetainedGene1A: Annotates if a kinase domain is retained in fused Gene1A
+\item kinaseDomainRetainedGene1B: Annotates if a kinase domain is retained in fused Gene1B
+\item CalledBy: Annotates all the callers that called the fusion
+\item caller_count: Number of callers that called the fusion
+\item integrated_diagnosis: Denotes the standardized 2016 WHO diagnosis
+\item broad_histology: Denotes the broad 2016 WHO classification for each tumor
+\item Kids_First_Participant_ID: Patient ids for the input fusion calls
+}
 }
 \description{
 detailed desc

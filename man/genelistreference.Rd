@@ -7,13 +7,26 @@
 \format{
 When read in via read.delim, the following information is available:
 \itemize{
-\item Gene_Symbol
-\item type
-\item file
+\item Gene_Symbol: Denotes gene symbol
+\item type: Denotes annotation type, values could beTumorSuppressorGene, CosmicCensus, TranscriptionFactor.Oncogene or Kinase
+\item file: Source file used to gather annotation
 }
 }
 \description{
 detailed desc
 4954 * 3 columns
+}
+\references{
+Annotation	File	Source:
+UCSC pfamID Description database:	http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/pfamDesc.txt.gz
+UCSC pfamID Description database: http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ucscGenePfam.txt.gz
+TumorFusions: an integrative resource for cancer-associated transcript fusions PMID: 29099951	https://tumorfusions.org/PanCanFusV2/downloads/pancanfus.txt.gz
+Oncogenes	http://www.bushmanlab.org/assets/doc/allOnco_Feb2017.tsv	www.bushmanlab.org
+Tumor suppressor genes (TSGs)	https://bioinfo.uth.edu/TSGene/Human_TSGs.txt?csrt=5027697123997809089	Tumor Suppressor Gene Database 2.0 PMIDs: 23066107, 26590405
+Kinases from The protein kinase complement of the human genome PMID: 12471243	http://kinase.com/human/kinome/tables/Kincat_Hsap.08.02.xls
+TranscriptionFactor from https://www.sciencedirect.com/science/article/pii/S0092867418301065?via\%3Dihub#mmc2 Table S1
+COSMIC genes	https://cancer.sanger.ac.uk/census	Catalogue of Somatic Mutations in Cancer
+Pediatric-specific oncogenes	MYBL1, SNCAIP, FOXR2, TTYH1, TERT	doi:10.1073/pnas.1300252110, doi:10.1038/nature11327, doi:10.1016/j.cell.2016.01.015, doi:10.1038/ng.2849, doi:10.1038/ng.3438, doi:10.1002/gcc.22110, doi:10.1016/j.canlet.2014.11.057, doi:10.1007/s11910-017-0722-5
+Pediatric-specific TSGs	BCOR, QKI	doi:10.1016/j.cell.2016.01.015, doi:10.1038/ng.3500
 }
 \keyword{datasets}

@@ -7,12 +7,8 @@
 \format{
 When read in via readRDS, the following information is available:
 \itemize{
-\item gene_id
-\item SRR1069188
-\item SRR1070986
-\item SRR1071289
-\item SRR1071880
-\item SRR1072178
+\item gene_id: Denotes gene symbol
+\item BS_W97QQYKQ: Denotes sample id for example runs
 }
 }
 \description{
