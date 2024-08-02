@@ -1,4 +1,6 @@
 # Read in the necessary data
+library(tidyverse)
+
 ann <- read_tsv("../inst/extdata/genelistreference.txt") %>%
   select(-classification)
 onco_tsg <- read_tsv("../inst/extdata/cancerGeneList.tsv") %>%
@@ -11,6 +13,11 @@ onco_tsg <- read_tsv("../inst/extdata/cancerGeneList.tsv") %>%
   )) %>%
   filter(!is.na(classification))
   
+#' Internal preprocessing function
+#'
+#' This function does some preprocessing and is not exported.
+#'
+#' @keywords internal
 
 # Function to add classification, update file column, and add missing genes
 update_ann_rm <- function(gene_file, onco_tsg) {
