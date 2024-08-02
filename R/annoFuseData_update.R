@@ -54,6 +54,11 @@ update_ann_rm <- function(gene_file, onco_tsg) {
 
 # Apply the function to ann_rm
 ann_rm <- update_ann_rm(ann, onco_tsg) %>%
+  group_by(Gene_Symbol, classification) %>%
+  mutate(file = case_when(is.na(classification) ~ gsub(", OncoKBv20240704", "", file), 
+                          TRUE ~ file)) %>%
+  reframe(type = paste(unique(trimws(unlist(strsplit(type, ", ")))), collapse = ", "),
+          file = paste(unique(trimws(unlist(strsplit(file, ", ")))), collapse = ", ")) %>%
   select(-classification) %>%
   arrange(Gene_Symbol) %>%
   write_tsv("../inst/extdata/genelistreference.txt")
