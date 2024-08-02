@@ -1,5 +1,6 @@
 # Read in the necessary data
-ann <- read_tsv("../inst/extdata/genelistreference.txt")
+ann <- read_tsv("../inst/extdata/genelistreference.txt") %>%
+  select(-classification)
 onco_tsg <- read_tsv("../inst/extdata/cancerGeneList.tsv") %>%
   dplyr::rename(Gene_Symbol = `Hugo Symbol`) %>%
   mutate(classification = case_when(
@@ -9,20 +10,22 @@ onco_tsg <- read_tsv("../inst/extdata/cancerGeneList.tsv") %>%
     TRUE ~ NA_character_
   )) %>%
   filter(!is.na(classification))
+  
 
 # Function to add classification, update file column, and add missing genes
-update_ann_rm <- function(ann_rm, onco_tsg) {
+update_ann_rm <- function(gene_file, onco_tsg) {
   # Filter out the specified file and clean the file and type columns
-  ann_rm <- ann_rm %>%
-    filter(file != "allOnco_Feb2017.tsv") %>%
+  gene_file <- gene_file %>%
+    dplyr::filter(file != "allOnco_Feb2017.tsv") %>%
     mutate(file = gsub(", allOnco_Feb2017.tsv|allOnco_Feb2017.tsv, ", "", file),
            type = gsub(", Oncogene|Oncogene, ", "", type))
   
   # Create a lookup table from onco_tsg
-  classification_lookup <- onco_tsg %>% select(Gene_Symbol, classification)
+  classification_lookup <- onco_tsg %>% 
+    select(Gene_Symbol, classification)
   
   # Perform a full join to ensure all genes from onco_tsg are included
-  combined_data <- full_join(ann_rm, classification_lookup, by = c("Gene_Symbol"))
+  combined_data <- full_join(gene_file, classification_lookup, by = c("Gene_Symbol"))
   
   # Update the type and file columns
   combined_data <- combined_data %>%
@@ -38,8 +41,8 @@ update_ann_rm <- function(ann_rm, onco_tsg) {
       # Ensure type contains unique classifications
       type = paste(unique(trimws(unlist(strsplit(type, ", ")))), collapse = ", "),
       # Add "OncoKB" to file if not already present
-      file = ifelse(is.na(file), "OncoKBv20240704", 
-                    ifelse(!grepl("OncoKBv20240704", file), 
+      file = ifelse(is.na(file) & Gene_Symbol %in% classification_lookup$Gene_Symbol, "OncoKBv20240704", 
+                    ifelse(!grepl("OncoKBv20240704", file) & Gene_Symbol %in% classification_lookup$Gene_Symbol, 
                            paste0(file, ifelse(file == "", "", ", "), "OncoKBv20240704"), 
                            file))
     ) %>%
@@ -51,10 +54,11 @@ update_ann_rm <- function(ann_rm, onco_tsg) {
 
 # Apply the function to ann_rm
 ann_rm <- update_ann_rm(ann, onco_tsg) %>%
+  group_by(Gene_Symbol, classification) %>%
+  mutate(file = case_when(is.na(classification) ~ gsub(", OncoKBv20240704", "", file), 
+                          TRUE ~ file)) %>%
+  reframe(type = paste(unique(trimws(unlist(strsplit(type, ", ")))), collapse = ", "),
+          file = paste(unique(trimws(unlist(strsplit(file, ", ")))), collapse = ", ")) %>%
+  select(-classification) %>%
   arrange(Gene_Symbol) %>%
   write_tsv("../inst/extdata/genelistreference.txt")
-
-as.data.frame(table(ann_rm$type))
-
-
-setdiff(ann$Gene_Symbol, ann_rm$Gene_Symbol)
