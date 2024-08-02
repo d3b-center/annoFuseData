@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of annoFuseData is to ...
+The goal of annoFuseData is to store required data and genelists for annoFuse
 
 ## Installation
 

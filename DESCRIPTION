@@ -1,15 +1,14 @@
 Package: annoFuseData
 Type: Package
 Title: Data Package for the annoFuse Bioconductor Package
-Version: 0.1.0
+Version: 1.0.0
 Authors@R: c(person(c("Krutika", "S."), "Gaonkar", role = "aut",
-    email = "gaonkark@chop.email.edu",
     comment = c(ORCID = "0000-0003-0838-2405")),
     person("Federico", "Marini", role = c("aut", "cre"),
     email = "marinif@uni-mainz.de",
     comment = c(ORCID = "0000-0003-3252-7758")),
     person(c("Komal", "S."), "Rathi", role = "ctb",
-    email = "rathik@email.chop.edu",
+    email = "rathik@chop.edu",
     comment = c(ORCID = "0000-0001-5534-6904")),
     person(c("Jaclyn", "N."), "Taroni", role = "ctb",
     email = "jaclyn.taroni@ccdatalab.org",
