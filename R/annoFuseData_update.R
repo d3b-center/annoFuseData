@@ -1,4 +1,6 @@
 # Read in the necessary data
+library(tidyverse)
+
 ann <- read_tsv("../inst/extdata/genelistreference.txt") %>%
   select(-classification)
 onco_tsg <- read_tsv("../inst/extdata/cancerGeneList.tsv") %>%
